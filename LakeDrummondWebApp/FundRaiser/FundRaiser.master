@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LakeDrummond.Master" AutoEventWireup="true" CodeBehind="FundRaiser.master.cs" Inherits="LakeDrummond.FundRaiser.FundRaiser" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="PageStyle" Runat="Server">
+    <asp:ContentPlaceHolder ID="StyleContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+    
+
+<asp:Content ID="FundRaiserMainContent" ContentPlaceHolderID="main" Runat="Server">
+    <asp:ContentPlaceHolder ID="FundRaiserMainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>

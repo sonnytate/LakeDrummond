@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LakeDrummond.Master" AutoEventWireup="true" CodeBehind="ServiceAwards.master.cs" Inherits="LakeDrummond.ServiceAwards.ServiceAwards" %>
+
+<asp:Content ID="main" ContentPlaceHolderID="PageStyle" runat="Server">
+    <asp:ContentPlaceHolder ID="ServiceAwardsPageStyle" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="main" runat="Server">
+
+    <asp:ContentPlaceHolder ID="ServiceAwardsPageTitle" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="ServiceAwardsPageMessage" runat="server">
+        If there is any corrections that needs to be made or if you have any photos of the presentation 
+    that you would like to have published on this site, 
+    please attach them to an email and sent it to
+         <a id="A1" runat="server" href="mailto:webmaster@lakedrummond178.org">webmaster@lakedrummond178.org
+         </a>. 
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="ServiceAwardsMain" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>

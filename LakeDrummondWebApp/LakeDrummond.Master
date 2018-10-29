@@ -1,0 +1,123 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LakeDrummond.master.cs" Inherits="LakeDrummond.LakeDrummond" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <title>Lake Drummond Masonic Lodge #178</title>
+    <meta http-equiv="X-Frame-Options" content="deny" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link id="Link1" href="styles/officers.css" rel="stylesheet" type="text/css" runat="server" />
+    <link id="Link2" href="styles/style.css" rel="stylesheet" type="text/css" runat="server" />
+
+    <asp:ContentPlaceHolder ID="PageScript" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="PageStyle" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="MasterForm" runat="server">
+        <div>
+
+            <%------------------------ Page Header -------------------------------------------------------%>
+            <asp:ContentPlaceHolder ID="header" runat="server">
+                <!-- /////////////////////// Header Left ///////////////////////////////////////// -->
+                <div class="header_left">
+                    <img id="Img1" alt='jachin'
+                        width="64" height="120" src="images/jachin.jpg" runat="server" /><br />
+                    <br />
+                    509 George Washington Hwy N
+                <br />
+                    Chesapeake, VA 23323-2009, US
+                <br />
+                </div>
+                <!-- header-left -->
+                <!-- ///////////////////////////// Header Center ///////////////////////////////// -->
+                <div class="header_center">
+                    Lake Drummond Masonic Lodge
+                <br />
+                    No. 178
+                <br />
+                    <img id="Img2" src="images/s_and_c.gif" alt='compass and square' runat="server" /><br />
+                    A. F. &amp; A. M.
+                </div>
+                <!-- header_center -->
+                <!-- /////////////////////////////// Header Right /////////////////////////////// -->
+                <div class="header_right">
+                    <img id="Img3" src="images/boaz.jpg" alt='boaz' runat="server" /><br />
+                    <br />
+                    Stated Meeting: 2nd Thrusday @ 7:00 PM<br />
+                    Dinner: 
+                     2nd Thursday @ 6:00 PM
+                <br />
+                    Work Nights: Every Other Thursday as 
+                    Announced @ 7:00 PM
+                <br />
+                    Refreshments: With Work Nights @ 6:00 PM
+                </div>
+                <!-- Header_right -->
+            </asp:ContentPlaceHolder>
+            <%------------------------------------- Menu -------------------------------------------------%>
+            <asp:ContentPlaceHolder ID="menu" runat="server">
+                <div class="menu_container">
+                    <div class="menu">
+                    <a id="Default" runat="server" href="Default.aspx">Home</a> &#8226;
+                    <a id="FundRaiser" runat="server" href="~/FundRaiser/Default.aspx">Fund Raising</a> &#8226; <%--TO DO: Update this to a fund raiser spash page--%>
+                    <a id="Officers" runat="server" href="Officers/Officers2017.aspx">Officers</a> &#8226;
+                    <a id="Calendar" runat="server" href="Calendar.aspx">Calendar</a> &#8226;
+                    <a id="PhotoGallery" runat="server" href="PhotoGallery">Photo Gallery</a> &#8226;
+		            <%--- <a runat="server" href="> Message Board </a> &bull; ---%>
+                    <a id="ServiceAwards60Year" runat="server" href="ServiceAwards/ServiceAwards60Year.aspx">60 Year Service Awards</a> &#8226;
+                    <a id="ServiceAwards50Year" runat="server" href="ServiceAwards/ServiceAwards50Year.aspx">50 Year Service Awards</a> &#8226;
+                    <a id="ServiceAwards25Year" runat="server" href="ServiceAwards/ServiceAwards25Year.aspx">25 Year Service Awards</a> &#8226;
+                    <a id="InMemoriam" runat="server" href="InMemoriam.aspx">In Memoriam</a> &#8226;                  
+                    <a id="History" runat="server" href="History.aspx">History</a> &#8226;
+                    <a id="PastMasters" runat="server" href="PastMasters.aspx">Past Masters</a> &#8226;
+                    <a id="Links" runat="server" href="Links.aspx">Links & 36th District Meeting Times</a> &#8226;
+                    <a id="GrandLodge" runat="server" target="_blank" href="https://grandlodgeofvirginia.org/">Grand Lodge Of Virginia</a> &#8226;
+		            <%-- E-Trestleboard and Web Supplement menu --%>
+                    <%--<a id="MemberInfoForm" runat="server" href="~/MemberInfo/MemberForm.aspx"> E-Trestleboard Notification Form</a> &#8226;--%>
+                    <a id="ETrestleboard" runat="server" href="~/ETrestleboard/ld_bulletin_2017_1q.pdf" target="_blank"><b>Current ETrestleboard</b> </a>&#8226;
+                    <a id="Supplement" runat="server" href="~/ETrestleboard/ld_bulletin_2017_04_sup.pdf" target="_blank"><b>Current ETrestleboard Supplement</b> </a>&#8226;
+                    <a id="PastTrestlboards" runat="server" href="ETrestleboard/PastTrestlboards.aspx">Past Trestleboards and Web Supplements</a>
+                    </div>
+                    <!-- menu_container -->
+                </div>
+                <br />
+            </asp:ContentPlaceHolder>
+            <%--------------------------------- Main Content ----------------------------------------------%>
+
+            <asp:ContentPlaceHolder ID="main" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <%---------------------------------- Footer ---------------------------------------------------%>
+            <asp:ContentPlaceHolder ID="footer" runat="server">
+                <div class="footer">
+                    <p>
+                        This is the official website of Lake Drummond 
+                        Masonic Lodge No. 178 of Ancient Free and Accepted 
+                        Masons in the Commonwealth of Virginia. 
+                        Information is provided as a public service only 
+                        and should not be used for commercial purposes, 
+                        unless otherwise stated. All material here-in is 
+                        provided &quot;As Is&quot;. All expressed or implied 
+                        conditions, representations and warranties are 
+                        disclaimed. While it is our goal to keep this site 
+                        current, no guarantees as to the quality, 
+                        suitability, or accuracy of any material contained 
+                        here in are made.
+                    </p>
+                    <p>
+                        Please enjoy your visit to our site and feel free 
+                        to contact the webmaster at
+                    <a id="A8" runat="server" href="mailto:webmaster@lakedrummond178.org">webmaster@lakedrummond178.org</a> with questions 
+                        or comments about this web site.
+                    </p>
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1348 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F684745-60BE-4B07-A9A0-02E98885251F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LakeDrummondWebApp</RootNamespace>
+    <AssemblyName>LakeDrummondWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Announcements\bbq\bbq.ascx" />
+    <Content Include="Announcements\bbq\bbq.jpg" />
+    <Content Include="Announcements\BloodDrive\BloodDrive.ascx" />
+    <Content Include="Announcements\Default.aspx" />
+    <Content Include="Announcements\FamilyPicnic\FamilyPicnic.ascx" />
+    <Content Include="Announcements\FishFry\FishFry.ascx" />
+    <Content Include="Announcements\General\General.ascx" />
+    <Content Include="Announcements\GolfTourney\Default.aspx" />
+    <Content Include="Announcements\GolfTourney\GolfTourney.ascx" />
+    <Content Include="Announcements\GolfTourney\golf_tee.jpg" />
+    <Content Include="Announcements\GolfTourney\s_c.jpg" />
+    <Content Include="Announcements\MasonicHomeCottages\cottage.jpg" />
+    <Content Include="Announcements\MasonicHomeCottages\Default.aspx" />
+    <Content Include="Announcements\MasonicHomeCottages\FloorPlans.aspx" />
+    <Content Include="Announcements\MasonicHomeCottages\layout_duplex.jpg" />
+    <Content Include="Announcements\MasonicHomeCottages\layout_triplex.jpg" />
+    <Content Include="Announcements\MasonicHomeCottages\letter.txt" />
+    <Content Include="Announcements\MasonicHomeCottages\MasonicHomeCottages.ascx" />
+    <Content Include="Announcements\MasonicHomeCottages\plans.txt" />
+    <Content Include="Announcements\Scholarship\Default.aspx" />
+    <Content Include="Announcements\Scholarship\Scholarship.ascx" />
+    <Content Include="Calendar.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ETrestleboard\images\kyle_strickland_sig.jpg" />
+    <Content Include="ETrestleboard\images\kyle_strickland_sig_org.jpg" />
+    <Content Include="ETrestleboard\JScript.js" />
+    <Content Include="ETrestleboard\ld_bulletin_2009_1q.aspx" />
+    <Content Include="ETrestleboard\ld_bulletin_2009_2q.aspx" />
+    <Content Include="ETrestleboard\PastTrestlboards.aspx" />
+    <Content Include="ETrestleboard\WebSupplement2009Vol2.aspx" />
+    <Content Include="FundRaiser\Default.aspx" />
+    <Content Include="FundRaiser\ElectronicSign\Default.aspx" />
+    <Content Include="FundRaiser\ElectronicSign\Images\LodgeElectSign.jpg" />
+    <Content Include="FundRaiser\MemorialBrick\Default.aspx" />
+    <Content Include="FundRaiser\MemorialBrick\Images\bricks.jpg" />
+    <Content Include="FundRaiser\MemorialBrick\Images\SandCLight.jpg" />
+    <Content Include="FundRaiser\MemorialBrick\Images\s_and_c_light.jpg" />
+    <Content Include="GenericError.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="History.aspx" />
+    <Content Include="images\bbq.gif" />
+    <Content Include="images\BBQ_Pig.jpg" />
+    <Content Include="images\BBQ_SandC.jpg" />
+    <Content Include="images\boaz.jpg" />
+    <Content Include="images\building.jpg" />
+    <Content Include="images\building_thumb.jpg" />
+    <Content Include="images\facebook-logo.jpg" />
+    <Content Include="images\hive.jpg" />
+    <Content Include="images\jachin.jpg" />
+    <Content Include="images\macoy\lodge_shirt.jpg" />
+    <Content Include="images\marble.jpg" />
+    <Content Include="images\Officers\officers_2008\2008-ryan.jpg" />
+    <Content Include="images\Officers\officers_2008\2008_b_whitington Chaplain.JPG" />
+    <Content Include="images\Officers\officers_2008\2008_harry_slaughter_tres.jpg" />
+    <Content Include="images\Officers\officers_2008\2008_m_hatfield_tiler.JPG" />
+    <Content Include="images\Officers\officers_2008\k_stephens_jw.jpg" />
+    <Content Include="images\Officers\officers_2008\k_strickland_sw.jpg" />
+    <Content Include="images\Officers\officers_2008\l_hobbs_sd.jpg" />
+    <Content Include="images\Officers\officers_2008\r_fletcher_carol.jpg" />
+    <Content Include="images\Officers\officers_2008\r_reed_wm.jpg" />
+    <Content Include="images\Officers\officers_2008\r_smith_jd.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Buddy.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Harry.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Jerry.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Kenny.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Lee.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Marty.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Rick.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Ryan.jpg" />
+    <Content Include="images\Officers\officers_2009\2009-Worshipful-Kyle.jpg" />
+    <Content Include="images\Officers\officers_2009\r_fletcher_carol.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_bud_williams_marshal.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_chris_allsbrooke_sd.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_harry_sluaghter_tres.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_john_conroy_jd.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_ken_stephens_wm.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_kyle_strickland_asst_sec.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_officers_1.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_officers_2.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_rick_smith_jw.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_sonny_tate_ss.jpg" />
+    <Content Include="images\Officers\officers_2010\2010_tim_russell_js.jpg" />
+    <Content Include="images\Officers\officers_2011\2011 Chris Allsbrook JW.JPG" />
+    <Content Include="images\Officers\officers_2011\2011 Chris Craig SS.JPG" />
+    <Content Include="images\Officers\officers_2011\2011 Henery Strickland JD.JPG" />
+    <Content Include="images\Officers\officers_2011\2011 John Conroy SD.JPG" />
+    <Content Include="images\Officers\officers_2011\2011 Lee Hobbs WM.JPG" />
+    <Content Include="images\Officers\officers_2011\2011 Marty Hatfield TILER.JPG" />
+    <Content Include="images\Officers\officers_2011\2011 Rick Smith SW.JPG" />
+    <Content Include="images\Officers\officers_2011\2011_kyle_strickland_asst_sec.jpg" />
+    <Content Include="images\Officers\officers_2012\2012 Associate Secretary.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Chaplain.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Junior Deacon.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Junior Steward.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Junior Warden.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Marshal.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Secretary .JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Senior Deacon.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Senior Steward.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Senior Warden.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Tiler.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Treasurer.JPG" />
+    <Content Include="images\Officers\officers_2012\2012 Worshipful Master.JPG" />
+    <Content Include="images\Officers\officers_2013\2013 C.A. Chris Allsbrook.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Donald O. Lankford, Jr.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Erik T. Chappell.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Fred L. Younger, Sr.JPG" />
+    <Content Include="images\Officers\officers_2013\2013 H.M. Marty Hatfield, PM.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Harry C. Slaughter.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Henry P. Strickland.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 John W. Conroy, Jr.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Joseph Dale Singer.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Kyle W. Strickland.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Matthew V. McClure.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 Officers.jpg" />
+    <Content Include="images\Officers\officers_2013\2013 William M. Mutter.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Christopher S. Bradly.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Dennis L. Bagley.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Fred L. Younger, Sr.JPG" />
+    <Content Include="images\Officers\Officers_2014\2014 H.M. Marty Hatfield.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Harry C. Slaughter.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Henry P. Strickland.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Jason S. Roberson.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 John W. Conroy, Jr.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 K. Lee Hobbs.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Kyle W. Strickland.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Officers.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 Timothy D. Strickland.jpg" />
+    <Content Include="images\Officers\Officers_2014\2014 William M. Mutter.jpg" />
+    <Content Include="images\Officers\Officers_2014\LakeDrummond2013_017.jpg" />
+    <Content Include="images\Officers\Officers_2015\2013 Kyle Strickland.jpg" />
+    <Content Include="images\Officers\Officers_2015\2015 Chris Allsbrook.JPG" />
+    <Content Include="images\Officers\Officers_2015\2015 Chris Turner.JPG" />
+    <Content Include="images\Officers\Officers_2015\2015 Dennis Bagley.JPG" />
+    <Content Include="images\Officers\Officers_2015\2015 Jerry Snow.jpg" />
+    <Content Include="images\Officers\Officers_2015\2015 John Conroy.JPG" />
+    <Content Include="images\Officers\Officers_2015\2015 officers.jpg" />
+    <Content Include="images\Officers\Officers_2015\2015 Raymond McEvoy.JPG" />
+    <Content Include="images\Officers\Officers_2015\2015 William Mutter.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 AS Ted Ferrell.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 Chap Chris Allsbrook.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 JW Jerry Snow.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 SD Henry Strickland.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 Sec Kyle Strickland.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 SW Dennis Bagley.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 Treas Raymond McEvoy.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 Tyler Marty Hatfield.jpg" />
+    <Content Include="images\Officers\Officers_2016\2016 WM John Conroy.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 AS Ted Ferrell.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 Chap Chris Allsbrook.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 JD Royce McCoy.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 JW Henry Strickland.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 SD Raymond Anderson.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 Sec Kyle Strickland.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 SW Jerry Snow.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 Treas Raymond McEvoy.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 Tyler Marty Hatfield.jpg" />
+    <Content Include="images\Officers\officers_2017\2017 WM Dennis Bagley.jpg" />
+    <Content Include="images\Officers\officers_2018\Chris Allsbrook.jpg" />
+    <Content Include="images\Officers\officers_2018\Dennis Bagley.jpg" />
+    <Content Include="images\Officers\officers_2018\Henry Strickland.jpg" />
+    <Content Include="images\Officers\officers_2018\Jerry Snow.jpg" />
+    <Content Include="images\Officers\officers_2018\Kyle Strickland.jpg" />
+    <Content Include="images\Officers\officers_2018\Marty Hatfield.jpg" />
+    <Content Include="images\Officers\officers_2018\Raymond Anderson.jpg" />
+    <Content Include="images\Officers\officers_2018\Raymond McEvoy.jpg" />
+    <Content Include="images\Officers\officers_2018\Royce McCoy.jpg" />
+    <Content Include="images\Officers\officers_2018\Ted Ferrell.jpg" />
+    <Content Include="images\s_and_c.gif" />
+    <Content Include="images\s_and_c.jpg" />
+    <Content Include="images\s_and_c_1.jpg" />
+    <Content Include="images\s_and_c_2.jpg" />
+    <Content Include="images\s_and_c_3.jpg" />
+    <Content Include="images\trestleboard_title.jpg" />
+    <Content Include="InMemoriam.aspx" />
+    <Content Include="Links.aspx" />
+    <Content Include="Officers\Officers2008.aspx" />
+    <Content Include="Officers\Officers2009.aspx" />
+    <Content Include="Officers\Officers2010.aspx" />
+    <Content Include="Officers\Officers2011.aspx" />
+    <Content Include="Officers\Officers2012.aspx" />
+    <Content Include="Officers\Officers2013.aspx" />
+    <Content Include="Officers\Officers2014.aspx" />
+    <Content Include="Officers\Officers2015.aspx" />
+    <Content Include="Officers\Officers2016.aspx" />
+    <Content Include="Officers\Officers2017.aspx" />
+    <Content Include="Officers\Officers2018.aspx" />
+    <Content Include="PastMasters.aspx" />
+    <Content Include="PhotoGallery\2008_Images\2008_altar.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren01.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren02.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren03.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren04.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren05.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren06.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren07.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren08.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren09.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren10.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren11.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren12.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren13.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren14.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren15.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren16.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_brethren17.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_building1.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_building2.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_display_case.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_door.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_e_dowell_doric_44.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_e_walters_j_peacock.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_front_sign.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_f_younger_j_matthews.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_j_peacock_r_reed.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_lodge_building2.jpg" />
+    <Content Include="PhotoGallery\2008_Images\2008_wm_seat.jpg" />
+    <Content Include="PhotoGallery\2008_Images\Default.aspx" />
+    <Content Include="PhotoGallery\2008_Images\getthumb.aspx" />
+    <Content Include="PhotoGallery\2008_Images\viewimage.aspx" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\2009_ddgm_visit_1.jpg" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\2009_ddgm_visit_2.jpg" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\2009_ddgm_visit_3.jpg" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\2009_ddgm_visit_4.jpg" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\Default.aspx" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\getthumb.aspx" />
+    <Content Include="PhotoGallery\2009_ddgm_visit\viewimage.aspx" />
+    <Content Include="PhotoGallery\2009_installation_officers\2009_installation_1.jpg" />
+    <Content Include="PhotoGallery\2009_installation_officers\2009_installation_2.jpg" />
+    <Content Include="PhotoGallery\2009_installation_officers\2009_installation_3.jpg" />
+    <Content Include="PhotoGallery\2009_installation_officers\2009_installation_5.jpg" />
+    <Content Include="PhotoGallery\2009_installation_officers\2009_installation_6.jpg" />
+    <Content Include="PhotoGallery\2009_installation_officers\Default.aspx" />
+    <Content Include="PhotoGallery\2009_installation_officers\getthumb.aspx" />
+    <Content Include="PhotoGallery\2010_GM_visit\2010_gm_visit_1.jpg" />
+    <Content Include="PhotoGallery\2010_GM_visit\2010_gm_visit_2.jpg" />
+    <Content Include="PhotoGallery\2010_GM_visit\2010_gm_visit_3.jpg" />
+    <Content Include="PhotoGallery\2010_GM_visit\2010_gm_visit_4.jpg" />
+    <Content Include="PhotoGallery\2010_GM_visit\Default.aspx" />
+    <Content Include="PhotoGallery\2010_GM_visit\getthumb.aspx" />
+    <Content Include="PhotoGallery\2010_GM_visit\viewimage.aspx" />
+    <Content Include="PhotoGallery\2011_FF_Team\Default.aspx" />
+    <Content Include="PhotoGallery\2011_FF_Team\ff_degree_team.jpg" />
+    <Content Include="PhotoGallery\2011_FF_Team\getthumb.aspx" />
+    <Content Include="PhotoGallery\2011_FF_Team\viewimage.aspx" />
+    <Content Include="PhotoGallery\2011_hicks_school\Default.aspx" />
+    <Content Include="PhotoGallery\2011_hicks_school\getthumb.aspx" />
+    <Content Include="PhotoGallery\2011_hicks_school\hicks_1st_sec_mm.jpg" />
+    <Content Include="PhotoGallery\2011_hicks_school\hicks_2011.jpg" />
+    <Content Include="PhotoGallery\2011_hicks_school\hicks_2011_1.jpg" />
+    <Content Include="PhotoGallery\2011_hicks_school\hicks_2nd_sec_mm.jpg" />
+    <Content Include="PhotoGallery\2011_hicks_school\hicks_ea.jpg" />
+    <Content Include="PhotoGallery\2011_hicks_school\hicks_fc.jpg" />
+    <Content Include="PhotoGallery\2011_hicks_school\viewimage.aspx" />
+    <Content Include="PhotoGallery\2013_ElecSign\Default.aspx" />
+    <Content Include="PhotoGallery\2013_ElecSign\getthumb.aspx" />
+    <Content Include="PhotoGallery\2013_ElecSign\LodgeElectSign.jpg" />
+    <Content Include="PhotoGallery\2013_ElecSign\viewimage.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 001.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 023.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 024.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 025.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 026.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 027.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 028.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 029.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 030.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 031.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 032.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 033.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 034.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 035.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 036.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 037.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 038.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 039.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 040.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 041.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 042.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 043.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 044.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 045.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 046.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 047.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 048.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 049.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 050.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 051.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 052.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 053.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 054.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 055.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 056.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 057.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 058.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 059.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 060.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 061.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 062.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\2013 Installation 063.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\Default.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\getthumb.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\viewimage.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 002.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 003.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 004.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 005.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 006.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 007.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 008.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 009.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 010.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 011.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 012.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 013.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 014.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 015.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\2013 Installation 017.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\Default.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\getthumb.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\viewimage.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\2013 Installation 016.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\2013 Installation 018.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\2013 Installation 019.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\2013 Installation 020.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\2013 Installation 021.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\2013 Installation 022.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\Default.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\getthumb.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\viewimage.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 066.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 068.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 070.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 072.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 074.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 076.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 078.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 080.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 082.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 084.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 086.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 088.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 089.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 091.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 093.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 095.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 097.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 102.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 109.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\2013 Installation 117.jpg" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\Default.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\getthumb.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\viewimage.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\Default.aspx" />
+    <Content Include="PhotoGallery\2013_installation_officers\viewimage.aspx" />
+    <Content Include="PhotoGallery\2014_gm_visit\2013 GM Visit100.jpg" />
+    <Content Include="PhotoGallery\2014_gm_visit\2013 GM Visit101.jpg" />
+    <Content Include="PhotoGallery\2014_gm_visit\2013 GM Visit102.jpg" />
+    <Content Include="PhotoGallery\2014_gm_visit\2013 GM Visit103.jpg" />
+    <Content Include="PhotoGallery\2014_gm_visit\Default.aspx" />
+    <Content Include="PhotoGallery\2014_gm_visit\getthumb.aspx" />
+    <Content Include="PhotoGallery\2014_gm_visit\viewimage.aspx" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 100.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 101.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 102.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 103.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 104.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 105.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 106.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 107.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 108.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 109.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 110.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 111.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 112.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 113.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 114.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 115.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 116.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 117.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 118.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 119.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 120.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 121.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 122.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 123.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 124.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 125.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 126.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 127.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 128.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 129.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 130.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 131.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 132.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 133.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 134.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 135.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 136.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 137.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 138.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 139.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 140.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 141.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 142.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 143.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 144.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 145.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 146.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 147.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 148.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 149.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 150.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 151.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 152.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 153.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 154.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 155.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 156.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 157.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 158.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 159.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 160.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 161.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 162.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 163.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 164.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 165.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 166.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 167.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 168.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 169.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 170.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 171.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 172.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 173.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 174.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 175.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 176.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 177.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 178.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 179.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 180.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 181.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 182.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 183.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 184.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 185.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 186.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 187.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 188.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 189.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 190.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 191.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 192.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 193.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 194.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 195.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 196.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 197.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 198.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 199.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 200.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 201.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 202.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 203.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 204.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 205.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 206.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 207.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 208.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 209.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 210.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 211.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 212.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 213.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\2014 Installation 214.jpg" />
+    <Content Include="PhotoGallery\2014_installation_officers\Default.aspx" />
+    <Content Include="PhotoGallery\2014_installation_officers\getthumb.aspx" />
+    <Content Include="PhotoGallery\2014_installation_officers\viewimage.aspx" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated Visiting DDGM.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated Visiting Masters 01.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated w DDGM 01.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated w DDGM 02.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated w gift to 2015PM.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated w GuestSpeaker 01.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated w GuestSpeaker 02.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated w GuestSpeaker 03.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated y Blood Award.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated y Blood Award2.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated y Closing.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated z Seated Master 01.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\160114 LD178 Jan Stated z Standing Master.JPG" />
+    <Content Include="PhotoGallery\2016_01_photos\Default.aspx" />
+    <Content Include="PhotoGallery\2016_01_photos\getthumb.aspx" />
+    <Content Include="PhotoGallery\2016_01_photos\viewimage.aspx" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 025a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 030a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 031a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 032a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 035a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 040 %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 042 %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 043 %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 046a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 048a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 050a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 051 %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 054a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 056a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 057a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 059a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 063a %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 068 %28800x531%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 070a %28531x800%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\160212 LD178 Feb Stated 071a %28531x800%29.jpg" />
+    <Content Include="PhotoGallery\2016_02_photos\Default.aspx" />
+    <Content Include="PhotoGallery\2016_02_photos\getthumb.aspx" />
+    <Content Include="PhotoGallery\2016_02_photos\viewimage.aspx" />
+    <Content Include="PhotoGallery\Default.aspx" />
+    <Content Include="PhotoGallery\GetThumb.ascx" />
+    <Content Include="PhotoGallery\graphics\close.png" />
+    <Content Include="PhotoGallery\graphics\closeX.png" />
+    <Content Include="PhotoGallery\graphics\controlbar-black-border.gif" />
+    <Content Include="PhotoGallery\graphics\controlbar-text-buttons.png" />
+    <Content Include="PhotoGallery\graphics\controlbar-white-small.gif" />
+    <Content Include="PhotoGallery\graphics\controlbar-white.gif" />
+    <Content Include="PhotoGallery\graphics\controlbar2.gif" />
+    <Content Include="PhotoGallery\graphics\controlbar3.gif" />
+    <Content Include="PhotoGallery\graphics\controlbar4-hover.gif" />
+    <Content Include="PhotoGallery\graphics\controlbar4.gif" />
+    <Content Include="PhotoGallery\graphics\fullexpand.gif" />
+    <Content Include="PhotoGallery\graphics\geckodimmer.png" />
+    <Content Include="PhotoGallery\graphics\icon.gif" />
+    <Content Include="PhotoGallery\graphics\loader.big.black.gif" />
+    <Content Include="PhotoGallery\graphics\loader.big.white.gif" />
+    <Content Include="PhotoGallery\graphics\loader.black.gif" />
+    <Content Include="PhotoGallery\graphics\loader.white.gif" />
+    <Content Include="PhotoGallery\graphics\outlines\beveled.png" />
+    <Content Include="PhotoGallery\graphics\outlines\custom.png" />
+    <Content Include="PhotoGallery\graphics\outlines\drop-shadow.png" />
+    <Content Include="PhotoGallery\graphics\outlines\glossy-dark.png" />
+    <Content Include="PhotoGallery\graphics\outlines\outer-glow.png" />
+    <Content Include="PhotoGallery\graphics\outlines\rounded-black.png" />
+    <Content Include="PhotoGallery\graphics\outlines\rounded-white.png" />
+    <Content Include="PhotoGallery\graphics\resize.gif" />
+    <Content Include="PhotoGallery\graphics\scrollarrows.png" />
+    <Content Include="PhotoGallery\graphics\zoomin.cur" />
+    <Content Include="PhotoGallery\graphics\zoomout.cur" />
+    <Content Include="ServiceAwards\Default.aspx" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\Default.aspx" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\gbw01.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\gbw02.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\gbw03.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\gbw04.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\gbw05.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\gbw06.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\getthumb.aspx" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\notes.txt" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\viewimage.aspx" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\_hcc_thumbs\gbw01.JPG-thumb-80.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\_hcc_thumbs\gbw02.JPG-thumb-80.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\_hcc_thumbs\gbw03.JPG-thumb-80.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\_hcc_thumbs\gbw04.JPG-thumb-80.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\_hcc_thumbs\gbw05.JPG-thumb-80.JPG" />
+    <Content Include="ServiceAwards\Images25yr\guy_boyce_walters\_hcc_thumbs\gbw06.JPG-thumb-80.JPG" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\Default.aspx" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\getthumb.aspx" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\j_morgan_50_1.jpg" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\j_morgan_50_2.jpg" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\j_morgan_50_3.jpg" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\j_morgan_50_4.jpg" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\j_morgan_50_5.jpg" />
+    <Content Include="ServiceAwards\Images50yr\james_morgan\viewimage.aspx" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\Default.aspx" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\getthumb.aspx" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes01.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes02.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes03.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes04.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes05.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes06.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes07.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes08.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes09.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes10.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes11.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\kes12.JPG" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\notes.txt" />
+    <Content Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\viewimage.aspx" />
+    <Content Include="ServiceAwards\ServiceAwards25Year.aspx" />
+    <Content Include="ServiceAwards\ServiceAwards50Year.aspx" />
+    <Content Include="ServiceAwards\ServiceAwards60Year.aspx" />
+    <Content Include="styles\officers.css" />
+    <Content Include="styles\style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Announcements\bbq\bbq.ascx.cs">
+      <DependentUpon>bbq.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\bbq\bbq.ascx.designer.cs">
+      <DependentUpon>bbq.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\BloodDrive\BloodDrive.ascx.cs">
+      <DependentUpon>BloodDrive.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\BloodDrive\BloodDrive.ascx.designer.cs">
+      <DependentUpon>BloodDrive.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\FamilyPicnic\FamilyPicnic.ascx.cs">
+      <DependentUpon>FamilyPicnic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\FamilyPicnic\FamilyPicnic.ascx.designer.cs">
+      <DependentUpon>FamilyPicnic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\FishFry\FishFry.ascx.cs">
+      <DependentUpon>FishFry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\FishFry\FishFry.ascx.designer.cs">
+      <DependentUpon>FishFry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\General\General.ascx.cs">
+      <DependentUpon>General.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\General\General.ascx.designer.cs">
+      <DependentUpon>General.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\GolfTourney\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\GolfTourney\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\GolfTourney\GolfTourney.ascx.cs">
+      <DependentUpon>GolfTourney.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\GolfTourney\GolfTourney.ascx.designer.cs">
+      <DependentUpon>GolfTourney.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\MasonicHomeCottages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\MasonicHomeCottages\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\MasonicHomeCottages\FloorPlans.aspx.cs">
+      <DependentUpon>FloorPlans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\MasonicHomeCottages\FloorPlans.aspx.designer.cs">
+      <DependentUpon>FloorPlans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\MasonicHomeCottages\MasonicHomeCottages.ascx.cs">
+      <DependentUpon>MasonicHomeCottages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\MasonicHomeCottages\MasonicHomeCottages.ascx.designer.cs">
+      <DependentUpon>MasonicHomeCottages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\Scholarship\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\Scholarship\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements\Scholarship\Scholarship.ascx.cs">
+      <DependentUpon>Scholarship.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements\Scholarship\Scholarship.ascx.designer.cs">
+      <DependentUpon>Scholarship.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar.aspx.designer.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ETrestleboard\ld_bulletin_2009_1q.aspx.cs">
+      <DependentUpon>ld_bulletin_2009_1q.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ETrestleboard\ld_bulletin_2009_1q.aspx.designer.cs">
+      <DependentUpon>ld_bulletin_2009_1q.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ETrestleboard\ld_bulletin_2009_2q.aspx.cs">
+      <DependentUpon>ld_bulletin_2009_2q.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ETrestleboard\ld_bulletin_2009_2q.aspx.designer.cs">
+      <DependentUpon>ld_bulletin_2009_2q.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ETrestleboard\PastTrestlboards.aspx.cs">
+      <DependentUpon>PastTrestlboards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ETrestleboard\PastTrestlboards.aspx.designer.cs">
+      <DependentUpon>PastTrestlboards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ETrestleboard\WebSupplement2009Vol2.aspx.cs">
+      <DependentUpon>WebSupplement2009Vol2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ETrestleboard\WebSupplement2009Vol2.aspx.designer.cs">
+      <DependentUpon>WebSupplement2009Vol2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FundRaiser\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FundRaiser\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FundRaiser\ElectronicSign\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FundRaiser\ElectronicSign\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FundRaiser\FundRaiser.master.cs">
+      <DependentUpon>FundRaiser.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FundRaiser\FundRaiser.master.designer.cs">
+      <DependentUpon>FundRaiser.master</DependentUpon>
+    </Compile>
+    <Compile Include="FundRaiser\MemorialBrick\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FundRaiser\MemorialBrick\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenericError.aspx.cs">
+      <DependentUpon>GenericError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenericError.aspx.designer.cs">
+      <DependentUpon>GenericError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InMemoriam.aspx.cs">
+      <DependentUpon>InMemoriam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InMemoriam.aspx.designer.cs">
+      <DependentUpon>InMemoriam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LakeDrummond.Master.cs">
+      <DependentUpon>LakeDrummond.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LakeDrummond.Master.designer.cs">
+      <DependentUpon>LakeDrummond.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Links.aspx.cs">
+      <DependentUpon>Links.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Links.aspx.designer.cs">
+      <DependentUpon>Links.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers.master.cs">
+      <DependentUpon>Officers.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers.master.designer.cs">
+      <DependentUpon>Officers.master</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2008.aspx.cs">
+      <DependentUpon>Officers2008.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2008.aspx.designer.cs">
+      <DependentUpon>Officers2008.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2009.aspx.cs">
+      <DependentUpon>Officers2009.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2009.aspx.designer.cs">
+      <DependentUpon>Officers2009.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2010.aspx.cs">
+      <DependentUpon>Officers2010.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2010.aspx.designer.cs">
+      <DependentUpon>Officers2010.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2011.aspx.cs">
+      <DependentUpon>Officers2011.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2011.aspx.designer.cs">
+      <DependentUpon>Officers2011.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2012.aspx.cs">
+      <DependentUpon>Officers2012.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2012.aspx.designer.cs">
+      <DependentUpon>Officers2012.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2013.aspx.cs">
+      <DependentUpon>Officers2013.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2013.aspx.designer.cs">
+      <DependentUpon>Officers2013.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2014.aspx.cs">
+      <DependentUpon>Officers2014.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2014.aspx.designer.cs">
+      <DependentUpon>Officers2014.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2015.aspx.cs">
+      <DependentUpon>Officers2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2015.aspx.designer.cs">
+      <DependentUpon>Officers2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2016.aspx.cs">
+      <DependentUpon>Officers2016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2016.aspx.designer.cs">
+      <DependentUpon>Officers2016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2017.aspx.cs">
+      <DependentUpon>Officers2017.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2017.aspx.designer.cs">
+      <DependentUpon>Officers2017.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Officers2018.aspx.cs">
+      <DependentUpon>Officers2018.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2018.aspx.designer.cs">
+      <DependentUpon>Officers2018.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PastMasters.aspx.cs">
+      <DependentUpon>PastMasters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PastMasters.aspx.designer.cs">
+      <DependentUpon>PastMasters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2008_Images\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2008_Images\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2008_Images\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2008_Images\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2009_ddgm_visit\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2009_ddgm_visit\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2009_ddgm_visit\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2009_ddgm_visit\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2009_installation_officers\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2009_installation_officers\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2010_GM_visit\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2010_GM_visit\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2010_GM_visit\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2011_FF_Team\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2011_FF_Team\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2011_FF_Team\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2011_hicks_school\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2011_hicks_school\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2011_hicks_school\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_ElecSign\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_ElecSign\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_ElecSign\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_ElecSign\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\Installation2013.master.cs">
+      <DependentUpon>Installation2013.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_cermony\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_entrance\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_pledge\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\2013_installation_officers_portraits\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\Installation2013.master.designer.cs">
+      <DependentUpon>Installation2013.master</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2013_installation_officers\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_gm_visit\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_gm_visit\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_gm_visit\getthumb.aspx.cs">
+      <DependentUpon>getthumb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_gm_visit\getthumb.aspx.designer.cs">
+      <DependentUpon>getthumb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_gm_visit\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_installation_officers\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_installation_officers\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2014_installation_officers\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2016_01_photos\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2016_01_photos\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2016_01_photos\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2016_02_photos\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2016_02_photos\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2016_02_photos\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\GetThumb.ascx.cs">
+      <DependentUpon>GetThumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\GetThumb.ascx.designer.cs">
+      <DependentUpon>GetThumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\Photo.master.cs">
+      <DependentUpon>Photo.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\Photo.master.designer.cs">
+      <DependentUpon>Photo.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceAwards\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAwards\Images25yr\guy_boyce_walters\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\Images25yr\guy_boyce_walters\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\Images50yr\james_morgan\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\Images50yr\james_morgan\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\Images50yr\ken_eugene_stevens_sr\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards.master.cs">
+      <DependentUpon>ServiceAwards.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards.master.designer.cs">
+      <DependentUpon>ServiceAwards.master</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards25Year.aspx.cs">
+      <DependentUpon>ServiceAwards25Year.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards25Year.aspx.designer.cs">
+      <DependentUpon>ServiceAwards25Year.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards50Year.aspx.cs">
+      <DependentUpon>ServiceAwards50Year.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards50Year.aspx.designer.cs">
+      <DependentUpon>ServiceAwards50Year.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards60Year.aspx.cs">
+      <DependentUpon>ServiceAwards60Year.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAwards\ServiceAwards60Year.aspx.designer.cs">
+      <DependentUpon>ServiceAwards60Year.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FundRaiser\FundRaiser.master" />
+    <Content Include="FundRaiser\MemorialBrick\MemorialBrickOrderForm.pdf" />
+    <Content Include="Officers\Officers.master" />
+    <Content Include="ETrestleboard\ld_bulletin_2009_3q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2009_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2010_1q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2010_2q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2010_3q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2010_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2011_1q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2011_2q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2011_3q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2011_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2012_1q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2012_2q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2012_3q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2012_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2013_1q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2013_2q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2013_3q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2013_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2014_1q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2014_2q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2014_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2015_1q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2015_3q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2016_4q.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2017_1q.pdf" />
+    <Content Include="Announcements\GolfTourney\LD_golf_tournament_business_letter_2017_ LTRHD.docx" />
+    <Content Include="Announcements\GolfTourney\LD_golf_tournament_business_letter_2018_ LTRHD.pdf" />
+    <Content Include="Announcements\GolfTourney\LD_golf_tournament_flyer_registration_2017.docx" />
+    <Content Include="Announcements\GolfTourney\LD_golf_tournament_flyer_registration_2018.pdf" />
+    <Content Include="Announcements\GolfTourney\LD_golf_tournament_member_letter_2018_ LTRHD.pdf" />
+    <Content Include="Announcements\FamilyPicnic\FamilyPicnic.pdf" />
+    <Content Include="Announcements\Scholarship\Lake Drummond Scholarship Application 2017.pdf" />
+    <Content Include="Announcements\Scholarship\Lake Drummond Scholarship Guidelines 2017.pdf" />
+    <Content Include="LakeDrummond.Master" />
+    <None Include="packages.config" />
+    <Content Include="PhotoGallery\Photo.master" />
+    <Content Include="PhotoGallery\2013_installation_officers\Installation2013.master" />
+    <Content Include="ServiceAwards\ServiceAwards.master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="ServiceAwards\Images60yr\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bll\Bll.csproj">
+      <Project>{45666333-f6e8-4263-8c7f-662c7d4c4f6d}</Project>
+      <Name>Bll</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63577</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:63577/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

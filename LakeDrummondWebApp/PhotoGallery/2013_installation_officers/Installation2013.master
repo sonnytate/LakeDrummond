@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LakeDrummond.Master" AutoEventWireup="true" CodeBehind="Installation2013.master.cs" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="main" runat="Server">
+
+    <h3>2013 Installation of Officers</h3>
+    <div style="font-weight: bold; font-size: 14px;">Menu: </div>
+
+    
+    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/PhotoGallery/2013_installation_officers/Default.aspx">
+        Back to 2013 Installation of Officers Home Page
+    </asp:HyperLink>
+
+    <br />
+    <a id="A6" runat="server" href="2013_installation_officers_entrance">Entrance
+    </a>&bull;
+  
+    <a id="A1" runat="server" href="2013_installation_officers_pledge">Pledge
+    </a>&bull;
+  
+    <a id="A2" runat="server" href="~/PhotoGallery/2013_installation_officers/2013_installation_officers_cermony/Default.aspx">Cermony
+    </a>&bull;
+  
+    <a id="A3" runat="server" href="2013_installation_officers_portraits">Portaits
+    </a>
+    <br />
+    <br />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2013InstallationOfficers" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+
+

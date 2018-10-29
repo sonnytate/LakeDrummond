@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LakeDrummond.Master" AutoEventWireup="true" CodeBehind="Officers.master.cs" Inherits="LakeDrummond.Officers.Officers" %>
+
+<asp:Content ID="OfficerScriptContent" ContentPlaceHolderID="PageScript" runat="server">
+    <asp:ContentPlaceHolder ID="OfficerPageScript" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="OfficerStyleContent" ContentPlaceHolderID="PageStyle" runat="server">
+    <asp:ContentPlaceHolder ID="OfficerPageStyle" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="OfficerMainContent" ContentPlaceHolderID="main" runat="Server">
+    <asp:ContentPlaceHolder ID="OfficerMenu" runat="server">
+        <div class="menu_container">
+            <div class="menu">
+                Officers for year:
+                <a id="Offers2008" runat="server" href="officers2008.aspx">2008</a>
+                &nbsp;&bull;
+                <a id="Offers2009" runat="server" href="officers2009.aspx">2009</a>
+                &nbsp;&bull;
+                <a id="Offers2010" runat="server" href="officers2010.aspx">2010</a>
+                &nbsp;&bull;
+                <a id="Offers2011" runat="server" href="officers2011.aspx">2011</a>
+                &nbsp;&bull;
+                <a id="Offers2012" runat="server" href="officers2012.aspx">2012</a>
+                &nbsp;&bull;
+                <a id="Offers2013" runat="server" href="officers2013.aspx">2013</a>
+                &nbsp;&bull;
+                <a id="Offers2014" runat="server" href="officers2014.aspx">2014</a>
+                &nbsp;&bull;
+                <a id="Offers2015" runat="server" href="officers2015.aspx">2015</a>
+                &nbsp;&bull;
+                <a id="Offers2016" runat="server" href="officers2016.aspx">2016</a>
+                &nbsp;&bull;
+                <a id="Offers2017" runat="server" href="officers2017.aspx">2017</a>
+                &nbsp;&bull;
+                <a id="Offers2018" runat="server" href="officers2018.aspx">2018</a>
+            </div>
+            <!-- menu_container -->
+        </div>
+        <!-- Menu -->
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="OfficerMain" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+

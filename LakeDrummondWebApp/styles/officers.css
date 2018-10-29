@@ -1,0 +1,9 @@
+  
+  div.image-row{clear:both; width:100%; }
+  div.img-cell{float:left; margin:5px;}
+  div.image-text-title{display:block;text-align:center; font-weight:bold; font-size:14px; }
+  div.image-text{display:block;text-align:center;  margin:10px;}
+  img.officers{ display:block;text-align:center; height:262px; width:175px;
+                border: thin solid rgb(0,0,0); margin-left:auto; margin-right:auto; } 
+  
+  
