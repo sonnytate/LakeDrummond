@@ -91,6 +91,7 @@
     <Content Include="Announcements\Scholarship\Scholarship.ascx" />
     <Content Include="Calendar.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="ErrorPages\404.aspx" />
     <Content Include="ETrestleboard\images\kyle_strickland_sig.jpg" />
     <Content Include="ETrestleboard\images\kyle_strickland_sig_org.jpg" />
     <Content Include="ETrestleboard\JScript.js" />
@@ -766,6 +767,13 @@
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
     </Compile>
     <Compile Include="ETrestleboard\ld_bulletin_2009_1q.aspx.cs">
       <DependentUpon>ld_bulletin_2009_1q.aspx</DependentUpon>

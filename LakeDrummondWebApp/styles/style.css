@@ -67,8 +67,9 @@ div.BrotherYear{font-weight:bold; font-size:24px;}
 div.BrotherName{font-weight:bold;}
 div.BrotherName, div.BrotherStartDate, div.BrotherEndDate, div.BrotherPhotos{ text-align:left;}
 div.BrotherYear{ font-weight:bold;}
-    
 
+/********************** Errors *******************************/
+.ErrorPage{color:red; font-size:20px;}
 
 
 
