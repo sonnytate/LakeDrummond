@@ -33,19 +33,33 @@ namespace LakeDrummondWebApp
 
         protected void Application_Error(object sender, EventArgs e)
         {
-            Exception exc = Server.GetLastError(); // Gets the error message.
+#if !DEBUG
+            string errorMessage;
+            var serverError = Server.GetLastError() as HttpException; // Gets the error message
 
-            string error = exc.InnerException.Message;
-            string stackTrace = exc.InnerException.StackTrace;
-            string errorMessage = "Error: " + error + "\nStack Trace: \n" + stackTrace;
+            if (serverError != null)
+            {
+                if (serverError.GetHttpCode() == 404)
+                {
+                    Server.ClearError();
+                    Server.Transfer("~/ErrorPages/404.aspx");
+                    return;
+                }
 
-            Email.SendEmail("Error@lakedrummond178.org", "webmaster@lakedrummond178.org", "Webpage Error", errorMessage);
-
-            //if (exc is HttpUnhandledException)
-            //{
-            //    // Pass the error on to the error page.
-            //    Server.Transfer("~/ErrorPage.aspx?handler=Application_Error%20-%20Global.asax", true);
-            //}
+                if (serverError.InnerException != null)
+                {
+                    string error = serverError.InnerException.Message;
+                    string stackTrace = serverError.InnerException.StackTrace;
+                    errorMessage = "Error: " + error + "\nStack Trace: \n" + stackTrace;
+                }
+                else
+                {
+                    string error = serverError.Message;
+                    errorMessage = "Error: " + error;
+                    Email.SendEmail("Error@lakedrummond178.org", "webmaster@lakedrummond178.org", "Webpage Error", errorMessage);
+                }
+            }
+#endif
         }
 
         protected void Session_End(object sender, EventArgs e)
