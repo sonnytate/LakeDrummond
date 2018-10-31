@@ -323,6 +323,22 @@
     <Content Include="PhotoGallery\2011_hicks_school\hicks_ea.jpg" />
     <Content Include="PhotoGallery\2011_hicks_school\hicks_fc.jpg" />
     <Content Include="PhotoGallery\2011_hicks_school\viewimage.aspx" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Associate Secretary.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Chaplain.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Junior Deacon.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Junior Steward.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Junior Warden.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Marshal.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Secretary .JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Senior Deacon.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Senior Steward.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Senior Warden.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Tiler.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Treasurer.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\2012 Worshipful Master.JPG" />
+    <Content Include="PhotoGallery\2012_installation_officers\Default.aspx" />
+    <Content Include="PhotoGallery\2012_installation_officers\getthumb.aspx" />
+    <Content Include="PhotoGallery\2012_installation_officers\viewimage.aspx" />
     <Content Include="PhotoGallery\2013_ElecSign\Default.aspx" />
     <Content Include="PhotoGallery\2013_ElecSign\getthumb.aspx" />
     <Content Include="PhotoGallery\2013_ElecSign\LodgeElectSign.jpg" />
@@ -1027,6 +1043,27 @@
     <Compile Include="PhotoGallery\2011_hicks_school\viewimage.aspx.cs">
       <DependentUpon>viewimage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2012_installation_officers\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2012_installation_officers\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2012_installation_officers\getthumb.aspx.cs">
+      <DependentUpon>getthumb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2012_installation_officers\getthumb.aspx.designer.cs">
+      <DependentUpon>getthumb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery\2012_installation_officers\viewimage.aspx.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery\2012_installation_officers\viewimage.aspx.designer.cs">
+      <DependentUpon>viewimage.aspx</DependentUpon>
     </Compile>
     <Compile Include="PhotoGallery\2013_ElecSign\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

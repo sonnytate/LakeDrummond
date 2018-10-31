@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummond.PhotoGallery {
+namespace LakeDrummondWebApp.PhotoGallery._2012_installation_officers {
     
     
-    public partial class Default {
+    public partial class getthumb {
     }
 }

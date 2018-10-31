@@ -7,27 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummond.PhotoGallery {
+namespace LakeDrummondWebApp.PhotoGallery._2012_installation_officers {
     
     
-    public partial class Photo {
+    public partial class viewimage {
         
         /// <summary>
-        /// PageStyleContentPlaceHolder control.
+        /// lnkBack control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder PageStyleContentPlaceHolder;
-        
-        /// <summary>
-        /// PhotoMain control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder PhotoMain;
+        protected global::System.Web.UI.WebControls.HyperLink lnkBack;
     }
 }
