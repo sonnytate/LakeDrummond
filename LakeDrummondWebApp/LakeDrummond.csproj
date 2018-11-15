@@ -680,6 +680,7 @@
     <Content Include="ServiceAwards\ServiceAwards60Year.aspx" />
     <Content Include="styles\officers.css" />
     <Content Include="styles\style.css" />
+    <Content Include="TextFile2.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
