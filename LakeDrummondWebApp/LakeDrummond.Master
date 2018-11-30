@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head id="Head1" runat="server">
     <title>Lake Drummond Masonic Lodge #178</title>
+    <meta name="viewport" content="width=device-width" />
     <meta http-equiv="X-Frame-Options" content="deny" />
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link id="Link1" href="styles/officers.css" rel="stylesheet" type="text/css" runat="server" />
