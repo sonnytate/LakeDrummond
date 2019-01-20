@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Lake Drummond 178" Language="C#" MasterPageFile="~/Officers/Officers.master" AutoEventWireup="true" CodeFile ="Officers2019.aspx.cs" Inherits="LakeDrummondWebApp.Officers.Officers2019" %>
+﻿<%@ Page Title="Lake Drummond 178" Language="C#" MasterPageFile="~/Officers/Officers.master" AutoEventWireup="true" CodeFile ="~/Officers/Officers2019.aspx.cs" Inherits="LakeDrummondWebApp.Officers.Officers2019" %>
 
 <asp:Content ID="StyleContent" ContentPlaceHolderID="OfficerPageStyle" runat="server">
         <style type="text/css">
