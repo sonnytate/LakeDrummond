@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Lake Drummond 178" Language="C#" MasterPageFile="~/Officers/Officers.master" AutoEventWireup="true" CodeBehind="Officers2018.aspx.cs" Inherits="LakeDrummond.Officers.Officers2018" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="OfficerPageStyle" runat="Server">
+<asp:Content ID="StyleContent" ContentPlaceHolderID="OfficerPageStyle" runat="Server">
     <style type="text/css">
         img.officers {
             width: 200px;
@@ -19,7 +19,7 @@
     </style>
 </asp:Content>
 
-<asp:Content ID="Content3" ContentPlaceHolderID="OfficerMain" runat="Server">
+<asp:Content ID="MainContent" ContentPlaceHolderID="OfficerMain" runat="Server">
     <h2 class="article_header" id="Title">2018 Officers </h2>
     <!--  Worshipful Master -->
     <div class="image-row">
@@ -48,13 +48,13 @@
     <div class="image-row">
         <div class="img-cell">
             <div class="image-text-title">Senior Deacon </div>
-            <img id="Img4" class="officers" alt="Image not available" runat="server" />
+            <img id="Img4" class="officers" alt="Image not available" runat="server" src="//:0" />
 
             <div class="image-text">Paul A. Wotring</div>
         </div>
         <div class="img-cell">
             <div class="image-text-title">Junior Deacon </div>
-            <img id="Img5" class="officers" alt="Image not available" runat="server" />
+            <img id="Img5" class="officers" alt="Image not available" runat="server" src="//:0" />
 
             <div class="image-text">W. E. "Billy" Phelps, Jr.</div>
         </div>
@@ -63,13 +63,13 @@
     <div class="image-row">
         <div class="img-cell">
             <div class="image-text-title">Senior Steward </div>
-            <img id="Img6" class="officers" alt="Image not available" runat="server" />
+            <img id="Img6" class="officers" alt="Image not available" runat="server" src="//:0" />
 
             <div class="image-text">Position Available</div>
         </div>
         <div class="img-cell">
             <div class="image-text-title">Junior Steward </div>
-            <img id="Img7" class="officers" alt="Image not available" runat="server" />
+            <img id="Img7" class="officers" alt="Image not available" runat="server" src="//:0" />
 
             <div class="image-text">Position Available</div>
         </div>
@@ -110,8 +110,7 @@
     <div class="image-row">
         <div class="img-cell">
             <div class="image-text-title">Marshal</div>
-            <img id="Img9" class="officers" alt="Image not available" runat="server"
-                src="" />
+            <img id="Img9" class="officers" alt="Image not available" runat="server" src="//:0"  />
             <div class="image-text">Roy Lee McDaniel, PM</div>
         </div>
         <div class="img-cell">

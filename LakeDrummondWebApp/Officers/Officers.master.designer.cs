@@ -139,6 +139,15 @@ namespace LakeDrummond.Officers {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2018;
         
         /// <summary>
+        /// Offers2019 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2019;
+        
+        /// <summary>
         /// OfficerMain control.
         /// </summary>
         /// <remarks>

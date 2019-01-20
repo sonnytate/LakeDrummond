@@ -1,0 +1,137 @@
+﻿			<%--Officers List--%>
+            <div style="width: 500px; margin: 10px auto; clear: both;">
+                <table border="0" width="500px" cellspacing="20px">
+                    <%----------------------- Worshipful Master ------------------------------------%>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <div class="officerContainer">
+                                <div class="office">Worshipful Master</div>
+                                <div class="officer"></div> <%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Senior Warden ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Senior Warden</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Warden ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Junior Warden</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Senior Deacon ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Senior Deacon</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Deacon ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Junior Deacon</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a id="A1" runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- ----------------------------------- Senior Steward ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Senior Steward</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a id="A3" runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Steward ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Junior Steward</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Treasurer ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Treasurer</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Secretary ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Secretary</div>
+                                <div class="officer">Kyle W. Strickland, PM</div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:178secretary@gmail.com">178secretary@gmail.com</a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Marshal --------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Marshal</div>
+                                <div class="officer"></div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:"></a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Tiler -------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Tiler</div>
+                                <div class="officer">H. M. "Marty" Hatfield, PM</div><%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a id="A4" runat="server" href="mailto:vanhatfield@yahoo.com">vanhatfield@yahoo.com</a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------------  Chaplain  -------------------------------------------- -->
+                        <td align="center">
+                            <div class="office">Chaplain</div>
+                            <div class="officer">C. A. "Chris" Allsbrook, PM</div><%--Officer Name--%>
+                            <div class="officerEmail">
+                                <a id="A2" runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a><%--Email--%>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>

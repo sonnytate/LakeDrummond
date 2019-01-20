@@ -205,149 +205,151 @@ ctz=America%2FNew_York"
 			<%--Officers List--%>
             <div style="width: 500px; margin: 10px auto; clear: both;">
                 <table border="0" width="500px" cellspacing="20px">
-                    <%--Worshipful Master --%>
+                    <%----------------------- Worshipful Master ------------------------------------%>
                     <tr>
                         <td colspan="2" align="center">
                             <div class="officerContainer">
                                 <div class="office">Worshipful Master</div>
-                                <div class="officer">Dennis L. Bagley</div>
+                                <div class="officer">Henry Patton Strickland, PM</div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:dennisbagley178@gmail.com">dennisbagley178@gmail.com</a>
+                                    <a runat="server" href="mailto:henrystrickland@cox.net">henrystrickland@cox.net</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
                     </tr>
-                    <%--Wardens--%>
                     <tr>
+                        <!-- -------------------------------------- Senior Warden ---------------------------------------------- -->
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Senior Warden</div>
-                                <div class="officer">Jerry W. Snow</div>
+                                <div class="officer">Raymond Scott Anderson </div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:rtoymaker900@gmail.com">rtoymaker900@gmail.com</a>
+                                    <a runat="server" href="mailto:fbsrsa@verizon.net">fbsrsa@verizon.net</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
+                        <!-- -------------------------------------- Junior Warden ---------------------------------------------- -->
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Junior Warden</div>
-                                <div class="officer">Henry P. Strickland, PM</div>
+                                <div class="officer">Paul Alfred Wotring</div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:henrystrickland@cox.net">henrystrickland@cox.net</a>
+                                    <a runat="server" href="mailto:paul.wotring@gmail.com">paul.wotring@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
                     </tr>
-                    <%--Treasurer/Secretary--%>
                     <tr>
+                        <!-- -------------------------------------- Senior Deacon ---------------------------------------------- -->
                         <td align="center">
                             <div class="officerContainer">
-                                <div class="office">Treasurer</div>
-                                <div class="officer">Raymond McEvoy, PM</div>
+                                <div class="office">Senior Deacon</div>
+                                <div class="officer">William Earl Phelps, Jr.</div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a>
+                                    <a runat="server" href="mailto:wephelps72@gmail.com">wephelps72@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
+                        <!-- -------------------------------------- Junior Deacon ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Junior Deacon</div>
+                                <div class="officer">Tony Ray Reynolds</div>
+                                <%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a id="A1" runat="server" href="mailto:tonytracy@cox.net">tonytracy@cox.net</a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- ----------------------------------- Senior Steward ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Senior Steward</div>
+                                <div class="officer">Bradley Aaron Phelps</div>
+                                <%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a id="A3" runat="server" href="mailto:bradley.phelps@live.longwood.edu">bradley.phelps@live.longwood.edu</a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Steward ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Junior Steward</div>
+                                <div class="officer">Harold B. Phillips, III</div>
+                                <%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:hbp31968@aol.com">hbp31968@aol.com</a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Treasurer ---------------------------------------------- -->
+                        <td align="center">
+                            <div class="officerContainer">
+                                <div class="office">Treasurer</div>
+                                <div class="officer">Raymond Gordon McEvoy, PM </div>
+                                <%--Officer Name--%>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a><%--Email--%>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Secretary ---------------------------------------------- -->
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Secretary</div>
                                 <div class="officer">Kyle W. Strickland, PM</div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:178secretary@gmail.com">178secretary@gmail.com</a>
+                                    <a runat="server" href="mailto:178secretary@gmail.com">178secretary@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
                     </tr>
-                    <%-- Marshal & Associate Secretary --%>
                     <tr>
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Associate Secretary</div>
-                                <div class="officer">T.S. “Ted” Ferrell, PM</div>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:tferrell@cox.net">tferrell@cox.net</a>
-                                </div>
-                            </div>
-                        </td>
+                        <!-- -------------------------------------- Marshal --------------------------------------------- -->
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Marshal</div>
-                                <div class="officer">Rodger D. Jones</div>
+                                <div class="officer">Roy L. McDaniel, PM</div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="crascal4383@yahoo.com">crascal4383@yahoo.com</a>
+                                    <a runat="server" href="mailto:royleemcdaniel1@gmail.com">royleemcdaniel1@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
-                    </tr>
-                    <%-- Chaplain/Tiler --%>
-                    <tr>
+                        <!-- -------------------------------------------  Chaplain  -------------------------------------------- -->
                         <td align="center">
+                            <div class="office">Chaplain</div>
+                            <div class="officer">C. A. "Chris" Allsbrook, PM</div> <%--Officer Name--%>
+                            <div class="officerEmail">
+                                <a id="A2" runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a><%--Email--%>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Tiler -------------------------------------- -->
+                        <td align="center" colspan="2">
                             <div class="officerContainer">
                                 <div class="office">Tiler</div>
                                 <div class="officer">H. M. "Marty" Hatfield, PM</div>
+                                <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a id="A4" runat="server" href="mailto:vanhatfield@yahoo.com">vanhatfield@yahoo.com</a>
                                 </div>
                             </div>
                         </td>
-                        <td align="center">
 
-                            <div class="office">Chaplain</div>
-                            <div class="officer">C. A. "Chris" Allsbrook, PM</div>
-                            <div class="officerEmail">
-                                <a id="A2" runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a>
-                            </div>
-                        </td>
                     </tr>
-                    <%--Deacons--%>
-                    <tr>
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Senior Deacon</div>
-                                <div class="officer">Raymond S. Anderson</div>
-                                <div class="officerEmail">
-                                    <a runat="server" href="fbsrsa@verizon.net">fbsrsa@verizon.net</a>
-                                </div>
-                            </div>
-                        </td>
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Junior Deacon</div>
-                                <div class="officer">C. Royce McCoy</div>
-                                <div class="officerEmail">
-                                    <a id="A1" runat="server" href="devilmac03@cox.net">devilmac03@cox.net</a>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <%--Stewards--%>
-                    <tr>
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Senior Steward</div>
-                                <div class="officer">Tracy W. Mutter</div>
-                                <div class="officerEmail">
-                                    <a id="A3" runat="server" href="mutter178@yahoo.com">mutter178@yahoo.com</a>
-                                </div>
-                            </div>
-                        </td>
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Junior Steward</div>
-                                <div class="officer">Stephen L. Mutter</div>
-                                <div class="officerEmail">
-                                    <a runat="server" href="nabster63@gmail.com">nabster63@gmail.com</a>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
                 </table>
-
             </div>
         </div>
-
     </div>
-
 </asp:Content>

@@ -90,6 +90,7 @@
     <Content Include="Announcements\Scholarship\Default.aspx" />
     <Content Include="Announcements\Scholarship\Scholarship.ascx" />
     <Content Include="Calendar.aspx" />
+    <Content Include="DeafaultOfficerTemplate.txt" />
     <Content Include="Default.aspx" />
     <Content Include="ErrorPages\404.aspx" />
     <Content Include="ETrestleboard\images\kyle_strickland_sig.jpg" />
@@ -256,6 +257,8 @@
     <Content Include="Officers\Officers2016.aspx" />
     <Content Include="Officers\Officers2017.aspx" />
     <Content Include="Officers\Officers2018.aspx" />
+    <Content Include="Officers\Officers2019.aspx" />
+    <Content Include="Officers\Template.aspx" />
     <Content Include="PastMasters.aspx" />
     <Content Include="PhotoGallery\2008_Images\2008_altar.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren01.jpg" />
@@ -969,6 +972,20 @@
     <Compile Include="Officers\Officers2018.aspx.designer.cs">
       <DependentUpon>Officers2018.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Officers\Officers2019.aspx.cs">
+      <DependentUpon>Officers2019.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2019.aspx.designer.cs">
+      <DependentUpon>Officers2019.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Officers\Template.aspx.cs">
+      <DependentUpon>Template.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Template.aspx.designer.cs">
+      <DependentUpon>Template.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PastMasters.aspx.cs">
       <DependentUpon>PastMasters.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1342,6 +1359,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\Officers\officers_2019\" />
     <Folder Include="Models\" />
     <Folder Include="ServiceAwards\Images60yr\" />
   </ItemGroup>
