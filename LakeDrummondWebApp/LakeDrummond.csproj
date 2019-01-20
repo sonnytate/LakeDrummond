@@ -258,7 +258,6 @@
     <Content Include="Officers\Officers2017.aspx" />
     <Content Include="Officers\Officers2018.aspx" />
     <Content Include="Officers\Officers2019.aspx" />
-    <Content Include="Officers\Template.aspx" />
     <Content Include="PastMasters.aspx" />
     <Content Include="PhotoGallery\2008_Images\2008_altar.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren01.jpg" />
@@ -978,13 +977,6 @@
     </Compile>
     <Compile Include="Officers\Officers2019.aspx.designer.cs">
       <DependentUpon>Officers2019.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Officers\Template.aspx.cs">
-      <DependentUpon>Template.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Officers\Template.aspx.designer.cs">
-      <DependentUpon>Template.aspx</DependentUpon>
     </Compile>
     <Compile Include="PastMasters.aspx.cs">
       <DependentUpon>PastMasters.aspx</DependentUpon>
