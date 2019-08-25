@@ -259,6 +259,7 @@
     <Content Include="Officers\Officers2018.aspx" />
     <Content Include="Officers\Officers2019.aspx" />
     <Content Include="PastMasters.aspx" />
+    <Content Include="PaymentCenter.aspx" />
     <Content Include="PhotoGallery\2008_Images\2008_altar.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren01.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren02.jpg" />
@@ -984,6 +985,13 @@
     </Compile>
     <Compile Include="PastMasters.aspx.designer.cs">
       <DependentUpon>PastMasters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter.aspx.cs">
+      <DependentUpon>PaymentCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentCenter.aspx.designer.cs">
+      <DependentUpon>PaymentCenter.aspx</DependentUpon>
     </Compile>
     <Compile Include="PhotoGallery\2008_Images\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

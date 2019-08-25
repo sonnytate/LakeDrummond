@@ -12,16 +12,16 @@ div.border_bottom{border-bottom-style: solid; border-width: thin;}
 
 
 /******************* Header *******************************************/
-div.header_left{float:left;font-size:12px;text-align:left;font-weight:bold;width:25%; }
-div.header_center{float:left;text-align:center;font-size:22px;width:49%;  }
-div.header_right{float:left;text-align:right;font-weight:bold;width:25%; }
+div.header_left{float:left; font-size:12px;text-align:left; font-weight:bold; width:25%; }
+div.header_center{float:left; text-align:center; font-size:22px; width:49%;  }
+div.header_right{float:left; text-align:right; font-weight:bold; width:25%; }
 
 /***************** Menu *****************************************/
-div.menu_container{ text-align:center;clear:both;  border-bottom: black solid thin;} 
+div.menu_container{ text-align:center; clear:both; border-bottom:black solid thin;} 
 
 
 /************************** Top text ************************************/
-div.page_title{font-weight:bold; font-size:35px;}
+div.page_title{text-align:center; font-weight:bold; font-size:35px; margin:5px auto; }
 div.top { padding: 5px 0px;}
 
 /************************ Columns ***************************************/

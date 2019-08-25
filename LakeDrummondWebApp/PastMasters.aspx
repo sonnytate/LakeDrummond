@@ -26,6 +26,9 @@ importantly our Past Masters are the columns that support Lake Drummond Masonic 
 <div class="list_container">
 	<div class="list_left" >
 		<div class="mm_year_header mm_year">YEAR</div><div class="mm_header mm">Worshipful Master</div>
+        <div class="mm_year">2019</div><div class="mm">Henry P. Strickland</div>
+        <div class="mm_year">2018</div><div class="mm">Jerry W. Snow</div>        
+        <div class="mm_year">2017</div><div class="mm">Dennis L. Bagley</div>
         <div class="mm_year">2016</div><div class="mm">John W. Conroy, Jr.</div>
         <div class="mm_year">2015</div><div class="mm">William M. Mutter</div>
         <div class="mm_year">2014</div><div class="mm">Henry P. Strickland</div>
