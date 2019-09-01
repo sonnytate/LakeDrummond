@@ -35,7 +35,7 @@
             <br />
             $8.00 per plate, eat-in or take-out. 
             <br />
-            Pork barbeque, cole slaw, baked beans and hushpuppies.
+            Pork barbecue, cole slaw, baked beans and hushpuppies.
             <br />
             Tea and lemonade for beverages. 
             <br />

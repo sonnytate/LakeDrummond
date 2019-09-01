@@ -270,7 +270,9 @@
     <Content Include="Officers\Officers2018.aspx" />
     <Content Include="Officers\Officers2019.aspx" />
     <Content Include="PastMasters.aspx" />
-    <Content Include="PaymentCenter.aspx" />
+    <Content Include="PaymentCenter\Default.aspx" />
+    <Content Include="PaymentCenter\Dues\Dues.ascx" />
+    <Content Include="PaymentCenter\FishFry\FishFry.ascx" />
     <Content Include="PhotoGallery\2008_Images\2008_altar.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren01.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren02.jpg" />
@@ -997,12 +999,26 @@
     <Compile Include="PastMasters.aspx.designer.cs">
       <DependentUpon>PastMasters.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PaymentCenter.aspx.cs">
-      <DependentUpon>PaymentCenter.aspx</DependentUpon>
+    <Compile Include="PaymentCenter\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PaymentCenter.aspx.designer.cs">
-      <DependentUpon>PaymentCenter.aspx</DependentUpon>
+    <Compile Include="PaymentCenter\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter\Dues\Dues.ascx.cs">
+      <DependentUpon>Dues.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentCenter\Dues\Dues.ascx.designer.cs">
+      <DependentUpon>Dues.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter\FishFry\FishFry.ascx.cs">
+      <DependentUpon>FishFry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentCenter\FishFry\FishFry.ascx.designer.cs">
+      <DependentUpon>FishFry.ascx</DependentUpon>
     </Compile>
     <Compile Include="PhotoGallery\2008_Images\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LakeDrummond.Master" AutoEventWireup="true" CodeBehind="Links.aspx.cs" Inherits="LakeDrummond.Links" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="PageStyle" runat="Server">
-    <style>
+    <style type="">
         div.table {
             text-align: center;
             width: 480px;

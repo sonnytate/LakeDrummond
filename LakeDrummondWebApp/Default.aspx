@@ -55,14 +55,14 @@
             </div>
             <%----------------------------------- announcements --------------------------------------------%>
             <div>
-                <announcements:BBQ ID="BBQ" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
-                <announcements:FamilyPicnic ID="FamilyPicnic" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
-                <announcements:General ID="GeneralAnnouncement" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
-                <announcements:GolfTourney ID="GolfTourney" runat="server" EventDate="10/17/2018" NumberDaysBeforeEvent="30" />
-                <announcements:MasonicHomeCottages ID="MasonicHomeCottages" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
-                <announcements:Scholarship ID="Scholarship" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
-                <announcements:BloodDrive ID="BloodDrive" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
-                <announcements:FishFry ID="FishFry" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:bbq id="BBQ" runat="server" eventdate="" numberdaysbeforeevent="30" />
+                <announcements:familypicnic id="FamilyPicnic" runat="server" eventdate="" numberdaysbeforeevent="30" />
+                <announcements:general id="GeneralAnnouncement" runat="server" eventdate="" numberdaysbeforeevent="30" />
+                <announcements:golftourney id="GolfTourney" runat="server" eventdate="10/17/2018" numberdaysbeforeevent="30" />
+                <announcements:masonichomecottages id="MasonicHomeCottages" runat="server" eventdate="" numberdaysbeforeevent="30" />
+                <announcements:scholarship id="Scholarship" runat="server" eventdate="" numberdaysbeforeevent="30" />
+                <announcements:blooddrive id="BloodDrive" runat="server" eventdate="" numberdaysbeforeevent="30" />
+                <announcements:fishfry id="FishFry" runat="server" eventdate="9/28/2019" numberdaysbeforeevent="30" />
             </div>
         </div>
     </div>
@@ -95,27 +95,27 @@
 
             <p>
                 There is no secret about who we are and what we do. We are good men trying to 
-				improve our lives through Faith, Hope, and Charity. We help our communities, fellow man, serve our country, 
-				and protect our family.  A simple one line answer doesn't exist to describe 
-				Freemasonry. Freemasonry is an ancient organization that seeks to make good 
-				men better through a system of morality and ethics applied by the use of symbolic 
-				images of ancient operative masonry. Freemasonry is NOT a religion. Religious 
-				beliefs are NOT discussed in Lodge, but through the use of symbols and 
-				allegories, Freemasonry teaches equality of man and the value of Brotherly 
-				Love, Relief and Truth.
+                improve our lives through Faith, Hope, and Charity. We help our communities, fellow man, serve our country, 
+                and protect our family.  A simple one line answer doesn't exist to describe 
+                Freemasonry. Freemasonry is an ancient organization that seeks to make good 
+                men better through a system of morality and ethics applied by the use of symbolic 
+                images of ancient operative masonry. Freemasonry is NOT a religion. Religious 
+                beliefs are NOT discussed in Lodge, but through the use of symbols and 
+                allegories, Freemasonry teaches equality of man and the value of Brotherly 
+                Love, Relief and Truth.
             </p>
 
             <p>
                 Freemasonry teaches and practices charity towards all who are less fortunate, 
-				while Freemasonry is NOT a religion. It is religious in the sense that Masons 
-				revere God, the Great Creator, and urge every man to attend a place of worship 
-				of his choice.
+                while Freemasonry is NOT a religion. It is religious in the sense that Masons 
+                revere God, the Great Creator, and urge every man to attend a place of worship 
+                of his choice.
             </p>
 
             <p>
                 Freemasonry is universal in the sense that it does not dictate what God a 
-				member must believe in, but a member must profess belief in a higher being, 
-				for no atheist can be made a Mason.
+                member must believe in, but a member must profess belief in a higher being, 
+                for no atheist can be made a Mason.
             </p>
 
         </div>
@@ -125,26 +125,26 @@
             <div class="article_header">How Do I Become a Mason?</div>
             <p>
                 <strong>To Be One You Must Ask One!</strong> To become a Mason a man must: 
-		apply of his own free will and accord and with an open heart. Neither invitations 
-		nor solicitations are made to prospective members. If a man is interested in joining 
-		he should ask a Masonic friend, who will guide him in 
-		the right direction.
+        apply of his own free will and accord and with an open heart. Neither invitations 
+        nor solicitations are made to prospective members. If a man is interested in joining 
+        he should ask a Masonic friend, who will guide him in 
+        the right direction.
             </p>
 
             <p>
                 The requirements for membership are that you be a man of good character and 
-		reputation; that you be a peaceful citizen, and one who guards against 
-		intemperance and excess; and that you are one who respects genuine brotherhood and 
-		the general good of society.  Freemasonry requires a belief in 
-		a supreme being.
+        reputation; that you be a peaceful citizen, and one who guards against 
+        intemperance and excess; and that you are one who respects genuine brotherhood and 
+        the general good of society.  Freemasonry requires a belief in 
+        a supreme being.
             </p>
 
             <p>
                 Each applicant for membership must be vouched for by two members of the Fraternity 
-		who are in good standing and know the applicant and can vouch 
-		for his character and his reputation.  In addition the applicant must be elected by a 
-		unanimous ballot.  For more on become coming a Mason visit the 
-		Grand Lodge of Virginia.
+        who are in good standing and know the applicant and can vouch 
+        for his character and his reputation.  In addition the applicant must be elected by a 
+        unanimous ballot.  For more on become coming a Mason visit the 
+        Grand Lodge of Virginia.
             </p>
         </div>
 
@@ -153,7 +153,7 @@
             <div class="article_header">Our Lodge</div>
             <div class="photo" style="width: 200px; margin: 0px auto;">
                 <a id="A6" runat="server" target="_blank" href="images/building.jpg">
-                    <img width="200px" height="77px" src="images/building_thumb.jpg" /></a>
+                    <img alt="Build image is not available." width="200px" height="77px" src="images/building_thumb.jpg" /></a>
                 <br />
                 <a id="A7" runat="server" style="font-weight: bold; font-size: 14px;" target="_blank" href="http://maps.google.com/maps?q=509+George+Washington+Hwy+N+Chesapeake,+VA+23323-2009,+US+&hl=en&ll=36.755356,-76.341655&spn=0.007418,0.011008&sll=37.09024,-112.412109&sspn=59.119059,123.662109&t=h&hnear=509+George+Washington+Hwy+N,+Chesapeake,+Virginia+23323&z=17">Click here for our location </a>
             </div>
@@ -198,11 +198,11 @@ ctz=America%2FNew_York"
             <div class="article_header">Current Officers</div>
 
             This area of the website will introduce you to Lake Drummond's officers 
-				for the current year. Contact information and a picture is provide for your 
-				convenience.  Please feel free to contact any Officer for information regarding 
-				Masonry.
+                for the current year. Contact information and a picture is provide for your 
+                convenience.  Please feel free to contact any Officer for information regarding 
+                Masonry.
 
-			<%--Officers List--%>
+            <%--Officers List--%>
             <div style="width: 500px; margin: 10px auto; clear: both;">
                 <table border="0" width="500px" cellspacing="20px">
                     <%----------------------- Worshipful Master ------------------------------------%>
@@ -316,7 +316,7 @@ ctz=America%2FNew_York"
                     </tr>
                     <tr>
                         <!-- -------------------------------------- Marshal --------------------------------------------- -->
-                        <td align="center">
+                        <%--<td align="center">--%>
                             <div class="officerContainer">
                                 <div class="office">Marshal</div>
                                 <div class="officer">Roy L. McDaniel, PM</div>
@@ -329,7 +329,8 @@ ctz=America%2FNew_York"
                         <!-- -------------------------------------------  Chaplain  -------------------------------------------- -->
                         <td align="center">
                             <div class="office">Chaplain</div>
-                            <div class="officer">C. A. "Chris" Allsbrook, PM</div> <%--Officer Name--%>
+                            <div class="officer">C. A. "Chris" Allsbrook, PM</div>
+                            <%--Officer Name--%>
                             <div class="officerEmail">
                                 <a id="A2" runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a><%--Email--%>
                             </div>
