@@ -4,18 +4,52 @@
     <br />
     <%----------------------------------- Fish Fry -------------------------------------------------------------%>
     <div class="article_header_left">Fish Fry</div>
-    <p>
-        Lake Drummond Lodge's annual fall fund raising event. <br />
-        <%--Eat In--%>
-        Eat in or take out ($10/each) number of Tickets:
-               
-        <asp:TextBox ID="FishFryInTextBox" runat="server"></asp:TextBox>
 
-        <asp:ImageButton
-            ID="PayPalBtnFishFryEatIn"
-            runat="server"
-            ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
-            OnClick="PayPalBtnFishFry_Click" />
-    </p>
+    Lake Drummond Lodge's annual fall fund raising event.
+        <br />
+
+
+    <div>
+
+        <table border="1">
+            <tr>
+                <td>
+                    <%--Eat In--%>
+                    Eat in or take out ($10/each) number of Tickets:
+                    <asp:TextBox ID="FishFryQtyTextBox" runat="server" Width="30px" ValidationGroup=""></asp:TextBox>
+                </td>
+                <td>
+                    <asp:ImageButton
+                        ID="PayPalBtnFishFryEatIn"
+                        runat="server"
+                        ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
+                        OnClick="PayPalBtnFishFry_Click" />
+
+                </td>
+                <td>
+                    <asp:RequiredFieldValidator
+                        ID="RequiredFieldValidatorQty"
+                        ControlToValidate="FishFryQtyTextBox"
+                        Display="Dynamic"
+                        ErrorMessage="The number of tickets is required"
+                        CssClass="Errortext"
+                        runat="server" />
+
+                    <asp:CompareValidator
+                        ID="intValidator"
+                        runat="server"
+                        ControlToValidate="FishFryQtyTextBox"
+                        Display="Dynamic"
+                        Operator="DataTypeCheck"
+                        Type="Integer"
+                        CssClass="Errortext"
+                        ErrorMessage="Value must be a whole number" />
+
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
 
 </asp:Panel>

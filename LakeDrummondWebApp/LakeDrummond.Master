@@ -20,8 +20,8 @@
 </head>
 <body>
     <form id="MasterForm" runat="server">
+        <asp:ScriptManager ID="ScriptManager" runat="server"></asp:ScriptManager>
         <div>
-
             <%------------------------ Page Header -------------------------------------------------------%>
             <asp:ContentPlaceHolder ID="header" runat="server">
                 <!-- /////////////////////// Header Left ///////////////////////////////////////// -->
@@ -64,13 +64,13 @@
             <asp:ContentPlaceHolder ID="menu" runat="server">
                 <div class="menu_container">
                     <div class="menu">
-                    <a id="Default" runat="server" href="Default.aspx">Home</a> &#8226;
+                        <a id="Default" runat="server" href="Default.aspx">Home</a> &#8226;
                     <a id="FundRaiser" runat="server" href="~/FundRaiser/Default.aspx">Fund Raising</a> &#8226; <%--TO DO: Update this to a fund raiser spash page--%>
-                    <a id="Officers" runat="server" href="Officers/Officers2019.aspx">Officers</a> &#8226;
+                        <a id="Officers" runat="server" href="Officers/Officers2019.aspx">Officers</a> &#8226;
                     <a id="Calendar" runat="server" href="Calendar.aspx">Calendar</a> &#8226;
                     <a id="PhotoGallery" runat="server" href="PhotoGallery">Photo Gallery</a> &#8226;
 		            <%--- <a runat="server" href="> Message Board </a> &bull; ---%>
-                    <a id="ServiceAwards60Year" runat="server" href="ServiceAwards/ServiceAwards60Year.aspx">60 Year Service Awards</a> &#8226;
+                        <a id="ServiceAwards60Year" runat="server" href="ServiceAwards/ServiceAwards60Year.aspx">60 Year Service Awards</a> &#8226;
                     <a id="ServiceAwards50Year" runat="server" href="ServiceAwards/ServiceAwards50Year.aspx">50 Year Service Awards</a> &#8226;
                     <a id="ServiceAwards25Year" runat="server" href="ServiceAwards/ServiceAwards25Year.aspx">25 Year Service Awards</a> &#8226;
                     <a id="InMemoriam" runat="server" href="InMemoriam.aspx">In Memoriam</a> &#8226;                  
@@ -79,8 +79,8 @@
                     <a id="Links" runat="server" href="Links.aspx">Links & 36th District Meeting Times</a> &#8226;
                     <a id="GrandLodge" runat="server" target="_blank" href="https://grandlodgeofvirginia.org/">Grand Lodge Of Virginia</a> &#8226;
 		            <%-- E-Trestleboard and Web Supplement menu --%>
-                    <%--<a id="MemberInfoForm" runat="server" href="~/MemberInfo/MemberForm.aspx"> E-Trestleboard Notification Form</a> &#8226;--%>
-                    <a id="ETrestleboard" runat="server" href="~/ETrestleboard/ld_bulletin_2017_1q.pdf" target="_blank"><b>Current ETrestleboard</b> </a>&#8226;
+                        <%--<a id="MemberInfoForm" runat="server" href="~/MemberInfo/MemberForm.aspx"> E-Trestleboard Notification Form</a> &#8226;--%>
+                        <a id="ETrestleboard" runat="server" href="~/ETrestleboard/ld_bulletin_2017_1q.pdf" target="_blank"><b>Current ETrestleboard</b> </a>&#8226;
                     <a id="Supplement" runat="server" href="~/ETrestleboard/ld_bulletin_2017_04_sup.pdf" target="_blank"><b>Current ETrestleboard Supplement</b> </a>&#8226;
                     <a id="PastTrestlboards" runat="server" href="ETrestleboard/PastTrestlboards.aspx">Past Trestleboards and Web Supplements</a>
                     </div>

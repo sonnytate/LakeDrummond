@@ -22,7 +22,10 @@ namespace LakeDrummondWebApp.PaymentCenter.FishFry
             const string itemName = "Fish Fry Tickets";
             const double itemAmount = 10;
 
-            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount);
+            double quantity = Convert.ToDouble(FishFryQtyTextBox.Text);
+            double total = quantity * itemAmount;
+
+            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, total);
             Response.Redirect(paypalHref.ToString(), true);
         }
     }
