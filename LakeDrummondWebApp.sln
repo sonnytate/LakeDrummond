@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LakeDrummond", "LakeDrummondWebApp\LakeDrummond.csproj", "{9F684745-60BE-4B07-A9A0-02E98885251F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{45666333-F6E8-4263-8C7F-662C7D4C4F6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Bll\Business.csproj", "{45666333-F6E8-4263-8C7F-662C7D4C4F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

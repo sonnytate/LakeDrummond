@@ -1,8 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Dues.ascx.cs" Inherits="LakeDrummondWebApp.PaymentCenter.Dues.Dues" %>
 
-<asp:Panel ID="DuesPanel" runat="server">
+<asp:Panel CssClass="border_bottom" ID="DuesPanel" runat="server">
+    <br />
     <%-------------------------------------------------------- Annual Dues -----------------------------------------------%>
-    <div class="article_header">Membership Dues</div>
+    <div Class="article_header_left">Membership Dues</div>
     <p>
         Members and friends of Lake Drummond Lodge may use this page to make payments and donations to the Lodge. To use this service click on the Pay Now, 
             Buy Now, or Donate button beside the payment you wish to make. This will direct you to a PayPal page where you have will the option to pay with 
@@ -22,14 +23,16 @@
            
     </p>
     <p>
-        <asp:DropDownList runat="server">
-            <asp:ListItem Text="2019 ($165 + $5.09)" Value="2019Dues"></asp:ListItem>
-            <asp:ListItem Text="2020 ($170 + $5.23)" Value="2020Dues"></asp:ListItem>
+        <asp:DropDownList runat="server" id="DuesSelection">
+            <asp:ListItem Text="2019 ($165 + $5.09)" Value="2019 Dues"></asp:ListItem>
+            <asp:ListItem Text="2020 ($170 + $5.23)" Value="2020 Dues"></asp:ListItem>
         </asp:DropDownList>
         <asp:TextBox ID="DuesNameTextBox" runat="server"></asp:TextBox>
         <asp:ImageButton
             ID="DuesButton"
             runat="server"
-            ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif" OnClick="DuesButton_Click" />
+            ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif" 
+            OnClick="DuesButton_Click" />
     </p>
+
 </asp:Panel>

@@ -38,23 +38,5 @@ namespace LakeDrummondWebApp.PaymentCenter.FishFry {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton PayPalBtnFishFryEatIn;
-        
-        /// <summary>
-        /// FishFryOutTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FishFryOutTextBox;
-        
-        /// <summary>
-        /// PayPalBtnFishFryTakeOut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton PayPalBtnFishFryTakeOut;
     }
 }

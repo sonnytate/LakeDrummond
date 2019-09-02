@@ -1390,9 +1390,9 @@
     <Folder Include="ServiceAwards\Images60yr\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bll\Bll.csproj">
+    <ProjectReference Include="..\Bll\Business.csproj">
       <Project>{45666333-f6e8-4263-8c7f-662c7d4c4f6d}</Project>
-      <Name>Bll</Name>
+      <Name>Business</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
