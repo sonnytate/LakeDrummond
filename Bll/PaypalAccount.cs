@@ -23,10 +23,19 @@ namespace Business
         const string business = "K8EMKL7F4VJYL"; // Paypal email or merchant id here
         const string currencyCode = "USD";
 
-        public static StringBuilder AccountInformation(string itemName, double itemAmount)
+        public static StringBuilder AccountInformation(string itemName, double itemAmount, bool useTestAccount = false)
         {
             StringBuilder paypalHref = new StringBuilder();
-            paypalHref.Append("https://www.paypal.com/cgi-bin/webscr?cmd=_xclick");
+
+            if (useTestAccount)
+            {
+                paypalHref.Append("https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick");
+            }
+            else
+            {
+                paypalHref.Append("https://www.paypal.com/cgi-bin/webscr?cmd=_xclick");
+            }
+
 
             paypalHref.Append("&business=" + business);
             paypalHref.Append("&currency_code=" + currencyCode);

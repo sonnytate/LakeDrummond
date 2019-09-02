@@ -273,6 +273,7 @@
     <Content Include="PaymentCenter\Default.aspx" />
     <Content Include="PaymentCenter\Dues\Dues.ascx" />
     <Content Include="PaymentCenter\FishFry\FishFry.ascx" />
+    <Content Include="PaymentCenter\Test\Test.ascx" />
     <Content Include="PhotoGallery\2008_Images\2008_altar.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren01.jpg" />
     <Content Include="PhotoGallery\2008_Images\2008_brethren02.jpg" />
@@ -1019,6 +1020,13 @@
     </Compile>
     <Compile Include="PaymentCenter\FishFry\FishFry.ascx.designer.cs">
       <DependentUpon>FishFry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter\Test\Test.ascx.cs">
+      <DependentUpon>Test.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentCenter\Test\Test.ascx.designer.cs">
+      <DependentUpon>Test.ascx</DependentUpon>
     </Compile>
     <Compile Include="PhotoGallery\2008_Images\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
