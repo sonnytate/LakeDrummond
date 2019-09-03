@@ -130,6 +130,15 @@ namespace LakeDrummond {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Default;
         
         /// <summary>
+        /// PaymentCenter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor PaymentCenter;
+        
+        /// <summary>
         /// FundRaiser control.
         /// </summary>
         /// <remarks>

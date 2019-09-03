@@ -21,9 +21,9 @@ namespace LakeDrummondWebApp.PaymentCenter.Test
         protected void PayPalBtnTest_Click(object sender, ImageClickEventArgs e)
         {
             const string itemName = "Test Payment";
-            const double itemAmount = 1;
+            const double itemAmount = 1; // US Dollars
 
-            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount, true);
+            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount); // Last parameter navigates to PayPal sandbox account.
             Response.Redirect(paypalHref.ToString(), true);
         }
     }

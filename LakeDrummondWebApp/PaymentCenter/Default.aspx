@@ -6,8 +6,8 @@
         <div class="article">
             <div class="article_header">Payment Center</div>
 
-            <payments:Dues ID="Dues" runat="server" />
-            <payments:FishFry ID="FishFry" runat="server" />
+            <payments:Dues ID="Dues" runat="server" Visible="false" /> <%--NOT DONE YET--%>
+            <payments:FishFry ID="FishFry" runat="server"  />
 
             <%--------------------------------- Confidentiality Notice -------------------------------------------------%>
             <br />

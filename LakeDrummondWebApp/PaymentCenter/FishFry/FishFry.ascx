@@ -11,7 +11,7 @@
 
     <div>
 
-        <table border="1">
+        <table>
             <tr>
                 <td>
                     <%--Eat In--%>
@@ -23,7 +23,8 @@
                         ID="PayPalBtnFishFryEatIn"
                         runat="server"
                         ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
-                        OnClick="PayPalBtnFishFry_Click" />
+                        OnClick="PayPalBtnFishFry_Click" 
+                        ValidationGroup="FishFryValidation" />
 
                 </td>
                 <td>
@@ -33,7 +34,8 @@
                         Display="Dynamic"
                         ErrorMessage="The number of tickets is required"
                         CssClass="Errortext"
-                        runat="server" />
+                        runat="server"  
+                        ValidationGroup="FishFryValidation"/>
 
                     <asp:CompareValidator
                         ID="intValidator"
@@ -43,7 +45,8 @@
                         Operator="DataTypeCheck"
                         Type="Integer"
                         CssClass="Errortext"
-                        ErrorMessage="Value must be a whole number" />
+                        ErrorMessage="Value must be a whole number" 
+                        ValidationGroup="FishFryValidation"/>
 
 
                 </td>

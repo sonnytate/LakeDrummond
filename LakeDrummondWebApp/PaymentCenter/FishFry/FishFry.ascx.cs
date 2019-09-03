@@ -20,7 +20,7 @@ namespace LakeDrummondWebApp.PaymentCenter.FishFry
         protected void PayPalBtnFishFry_Click(object sender, ImageClickEventArgs e)
         {
             const string itemName = "Fish Fry Tickets";
-            const double itemAmount = 10;
+            const double itemAmount = 10;  // US Dollars
 
             double quantity = Convert.ToDouble(FishFryQtyTextBox.Text);
             double total = quantity * itemAmount;

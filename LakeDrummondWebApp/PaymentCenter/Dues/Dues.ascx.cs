@@ -19,6 +19,7 @@ namespace LakeDrummondWebApp.PaymentCenter.Dues
         /// <param name="e"></param>
         protected void DuesButton_Click(object sender, ImageClickEventArgs e)
         {
+            string memberName = "Member Name: " + DuesFirstNameTextBox.Text + " " + DuesLastNameTextBox.Text;
             string itemName = "";
             double itemAmount = 0.00;
 
@@ -26,13 +27,13 @@ namespace LakeDrummondWebApp.PaymentCenter.Dues
             switch (selectedValue)
             {
                 case "2019 Dues":
-                    itemName = "2019 Dues";
-                    itemAmount = 170.09;
+                    itemName = "2019 Dues - " + memberName; 
+                    itemAmount = 170.09;  // US DollarsmemberName
                     break;
 
                 case "2020 Dues":
-                    itemName = "2020 Dues";
-                    itemAmount = 175.23;
+                    itemName = "2020 Dues - " + memberName; 
+                    itemAmount = 175.23;  // US Dollars
                     break;
             }
             StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount);
