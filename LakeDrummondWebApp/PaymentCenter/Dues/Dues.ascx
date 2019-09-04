@@ -44,7 +44,7 @@
                     ID="FirstNameRegularExpressionValidator"
                     runat="server"
                     ValidationExpression="^[a-zA-Z'.\s]{1,50}"
-                    ErrorMessage="You must enter a name with no numbers, spaces, or special characters."
+                    ErrorMessage="You must enter a name with no numbers or special characters."
                     ValidationGroup="DuesValidatorGroup"
                     CssClass="ValidationErrorText" />
 
@@ -69,7 +69,7 @@
                     ControlToValidate="DuesLastNameTextBox"
                     runat="server"
                     ValidationExpression="^[a-zA-Z'.\s]{1,50}"
-                    ErrorMessage="You must enter a name with no numbers, spaces, or special characters."
+                    ErrorMessage="You must enter a name with no numbers or special characters."
                     ValidationGroup="DuesValidatorGroup"
                     CssClass="ValidationErrorText" />
             </td>
