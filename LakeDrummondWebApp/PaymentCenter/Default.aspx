@@ -6,7 +6,7 @@
         <div class="article">
             <div class="article_header">Payment Center</div>
 
-            <payments:Dues ID="Dues" runat="server" Visible="false" /> <%--NOT DONE YET--%>
+            <payments:Dues ID="Dues" runat="server" Visible="true" /> <%--NOT DONE YET--%>
             <payments:FishFry ID="FishFry" runat="server"  />
 
             <%--------------------------------- Confidentiality Notice -------------------------------------------------%>
@@ -19,9 +19,7 @@
                 PayPal will never contact you via email or through any web site asking you to validate your account or provide confirmation of any personal data 
                 such as Social Security number, bank or credit card information.
             </p>
-
-            Page Last Updated: 11/28/18 11:26:52 AM
-            Questions or comments can be sent to webmaster@kempsvillelodge.org 
+            Questions or comments can be sent to <a href="mailto: webmaster@lakedrummond178.org"> webmaster@lakedrummond178.org </a>
        
         </div>
     </div>

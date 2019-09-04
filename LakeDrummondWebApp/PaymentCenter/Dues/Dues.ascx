@@ -19,66 +19,71 @@
             a few days. Please note that PayPal charges the Lodge a processing fee for all payments made through this facility. This fee is added to dues payments 
             only. For example, the 2019 dues payment includes a PayPal fee of $3.80 for a total payment of $120.80. 
     </p>
-    <table border="1">
+
+    <asp:DropDownList runat="server" ID="DuesSelection">
+        <asp:ListItem Text="2019 ($165 + $5.09)" Value="2019 Dues"></asp:ListItem>
+        <asp:ListItem Text="2020 ($170 + $5.23)" Value="2020 Dues"></asp:ListItem>
+    </asp:DropDownList>
+    <table>
         <tr>
-            <td>
-                <asp:DropDownList runat="server" ID="DuesSelection">
-                    <asp:ListItem Text="2019 ($165 + $5.09)" Value="2019 Dues"></asp:ListItem>
-                    <asp:ListItem Text="2020 ($170 + $5.23)" Value="2020 Dues"></asp:ListItem>
-                </asp:DropDownList>
-            </td>
-        </tr>
-        <tr>
-            <td>Member first name:<asp:TextBox ID="DuesFirstNameTextBox" runat="server" Width="100px"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>Member last name:<asp:TextBox ID="DuesLastNameTextBox" runat="server" Width="100px"></asp:TextBox>
-            </td>
-            <td>
-                <asp:ImageButton
-                    ID="DuesButton"
-                    ValidationGroup="DuesValidatorGroup"
-                    runat="server"
-                    ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
-                    OnClick="DuesButton_Click"
-                    CssClass="Errortext" />
-            </td>
-            <td>
+            <td>Member first name:
+                <asp:TextBox ID="DuesFirstNameTextBox" runat="server" Width="100px"></asp:TextBox>
+
                 <asp:RequiredFieldValidator
-                    ControlToValidate="DuesFirstNameTextBox"
+                    ControlToValidate="DuesFirstNameTextBox" 
+                    Display="dynamic"
                     ID="RequiredFieldValidator1"
                     runat="server"
                     ErrorMessage="This field is required"
                     ValidationGroup="DuesValidatorGroup"
-                    CssClass="Errortext" />
+                    CssClass="ValidationErrorText" />
 
-                <asp:RegularExpressionValidator
+                <asp:RegularExpressionValidator 
+                    Display="dynamic"
                     ControlToValidate="DuesFirstNameTextBox"
                     ID="FirstNameRegularExpressionValidator"
                     runat="server"
                     ValidationExpression="^[a-zA-Z'.\s]{1,50}"
                     ErrorMessage="You must enter a name with no numbers, spaces, or special characters."
                     ValidationGroup="DuesValidatorGroup"
-                    CssClass="Errortext" />
+                    CssClass="ValidationErrorText" />
+
+            </td>
+        </tr>
+        <tr>
+            <td>Member last name:
+                <asp:TextBox ID="DuesLastNameTextBox" runat="server" Width="100px"></asp:TextBox>
 
                 <asp:RequiredFieldValidator
-                    ControlToValidate="DuesLastNameTextBox"
+                    ControlToValidate="DuesLastNameTextBox" 
+                    Display="dynamic"
                     ID="RequiredFieldValidator2"
                     runat="server"
                     ErrorMessage="This field is required"
                     ValidationGroup="DuesValidatorGroup"
-                    CssClass="Errortext" />
+                    CssClass="ValidationErrorText" />
 
                 <asp:RegularExpressionValidator
-                    ID="LastNameRegularExpressionValidator"
+                    ID="LastNameRegularExpressionValidator" 
+                    Display="dynamic"
                     ControlToValidate="DuesLastNameTextBox"
                     runat="server"
                     ValidationExpression="^[a-zA-Z'.\s]{1,50}"
                     ErrorMessage="You must enter a name with no numbers, spaces, or special characters."
                     ValidationGroup="DuesValidatorGroup"
-                    CssClass="Errortext" />
+                    CssClass="ValidationErrorText" />
             </td>
         </tr>
+        <tr>
+            <td>
+                <asp:ImageButton
+                    ID="DuesButton"
+                    ValidationGroup="DuesValidatorGroup"
+                    runat="server"
+                    ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
+                    OnClick="DuesButton_Click" />
+            </td>
+        </tr>
+
     </table>
 </asp:Panel>
