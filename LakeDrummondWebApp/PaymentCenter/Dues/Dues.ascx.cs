@@ -28,12 +28,12 @@ namespace LakeDrummondWebApp.PaymentCenter.Dues
             {
                 case "2019 Dues":
                     itemName = "2019 Dues - " + memberName; 
-                    itemAmount = 170.09;  // US DollarsmemberName
+                    itemAmount = 170.24;  // US DollarsmemberName
                     break;
 
                 case "2020 Dues":
                     itemName = "2020 Dues - " + memberName; 
-                    itemAmount = 175.23;  // US Dollars
+                    itemAmount = 175.39;  // US Dollars
                     break;
             }
             StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount);
