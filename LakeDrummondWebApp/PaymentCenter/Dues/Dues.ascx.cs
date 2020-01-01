@@ -36,7 +36,7 @@ namespace LakeDrummondWebApp.PaymentCenter.Dues
                     itemAmount = 175.39;  // US Dollars
                     break;
             }
-            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount);
+            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount, true);
             Response.Redirect(paypalHref.ToString(), true);
         }
     }

@@ -55,14 +55,14 @@
             </div>
             <%----------------------------------- announcements --------------------------------------------%>
             <div>
-                <announcements:bbq id="BBQ" runat="server" eventdate="" numberdaysbeforeevent="30" />
-                <announcements:familypicnic id="FamilyPicnic" runat="server" eventdate="" numberdaysbeforeevent="30" />
-                <announcements:general id="GeneralAnnouncement" runat="server" eventdate="" numberdaysbeforeevent="30" />
-                <announcements:golftourney id="GolfTourney" runat="server" eventdate="10/17/2018" numberdaysbeforeevent="30" />
-                <announcements:masonichomecottages id="MasonicHomeCottages" runat="server" eventdate="" numberdaysbeforeevent="30" />
-                <announcements:scholarship id="Scholarship" runat="server" eventdate="" numberdaysbeforeevent="30" />
-                <announcements:blooddrive id="BloodDrive" runat="server" eventdate="" numberdaysbeforeevent="30" />
-                <announcements:fishfry id="FishFry" runat="server" eventdate="9/28/2019" numberdaysbeforeevent="30" />
+                <announcements:BBQ ID="BBQ" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:FamilyPicnic ID="FamilyPicnic" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:General ID="GeneralAnnouncement" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:GolfTourney ID="GolfTourney" runat="server" EventDate="10/17/2018" NumberDaysBeforeEvent="30" />
+                <announcements:MasonicHomeCottages ID="MasonicHomeCottages" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:Scholarship ID="Scholarship" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:BloodDrive ID="BloodDrive" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:FishFry ID="FishFry" runat="server" EventDate="9/28/2019" NumberDaysBeforeEvent="30" />
             </div>
         </div>
     </div>
@@ -168,26 +168,26 @@
         <%-- Article: Google Calendar Events --%>
         <div class="article">
             <iframe src="https://www.google.com/calendar/embed?
-height=600&amp;
-wkst=1&amp;
-bgcolor=%23FFFFFF&amp;
-src=ftckbefkel7j109jr4gaoppcks%40group.calendar.google.com&amp;color=%23AB8B00&amp;
-src=n0gssdjp9d8f0f3t6cgns0v7ao%40group.calendar.google.com&amp;color=%230D7813&amp;
-src=nipeu6j8qc0nstlp1f1jrvhsh4%40group.calendar.google.com&amp;color=%23691426&amp;
-src=o08knpcuahffo1a6a1vfngn5qc%40group.calendar.google.com&amp;color=%23B1365F&amp;
-src=ncjho5ssnu67j99qieh1bqe4ck%40group.calendar.google.com&amp;color=%23BE6D00&amp;
-src=lakedrummond178%40gmail.com&amp;
-color=%23691426&amp;
-src=if523hm96ojlvbgctk6q0vfrac%40group.calendar.google.com&amp;
-color=%23B1440E&amp;
-src=t9l5ubmc7j3uqhut4n425sm6kk%40group.calendar.google.com&amp;
-color=%238D6F47&amp;
-src=mm6bcds9vf3dt9pmvv5n0rr30g%40group.calendar.google.com&amp;
-color=%235229A3&amp;
-src=9p1ilqt3hbg8941c920rmkkfjg%40group.calendar.google.com&amp;
-color=%232952A3&amp;
-mode=AGENDA&amp;
-ctz=America%2FNew_York"
+                height=600&amp;
+                wkst=1&amp;
+                bgcolor=%23FFFFFF&amp;
+                src=ftckbefkel7j109jr4gaoppcks%40group.calendar.google.com&amp;color=%23AB8B00&amp;
+                src=n0gssdjp9d8f0f3t6cgns0v7ao%40group.calendar.google.com&amp;color=%230D7813&amp;
+                src=nipeu6j8qc0nstlp1f1jrvhsh4%40group.calendar.google.com&amp;color=%23691426&amp;
+                src=o08knpcuahffo1a6a1vfngn5qc%40group.calendar.google.com&amp;color=%23B1365F&amp;
+                src=ncjho5ssnu67j99qieh1bqe4ck%40group.calendar.google.com&amp;color=%23BE6D00&amp;
+                src=lakedrummond178%40gmail.com&amp;
+                color=%23691426&amp;
+                src=if523hm96ojlvbgctk6q0vfrac%40group.calendar.google.com&amp;
+                color=%23B1440E&amp;
+                src=t9l5ubmc7j3uqhut4n425sm6kk%40group.calendar.google.com&amp;
+                color=%238D6F47&amp;
+                src=mm6bcds9vf3dt9pmvv5n0rr30g%40group.calendar.google.com&amp;
+                color=%235229A3&amp;
+                src=9p1ilqt3hbg8941c920rmkkfjg%40group.calendar.google.com&amp;
+                color=%232952A3&amp;
+                mode=AGENDA&amp;
+                ctz=America%2FNew_York"
                 style="border-width: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
         </div>
@@ -315,8 +315,9 @@ ctz=America%2FNew_York"
                         </td>
                     </tr>
                     <tr>
-                        <!-- -------------------------------------- Marshal --------------------------------------------- -->
-                        <%--<td align="center">--%>
+                        <td align="center">
+                            <!-- -------------------------------------- Marshal --------------------------------------------- -->
+                            <%--<td align="center">--%>
                             <div class="officerContainer">
                                 <div class="office">Marshal</div>
                                 <div class="officer">Roy L. McDaniel, PM</div>

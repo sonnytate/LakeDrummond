@@ -5,12 +5,8 @@
     <%----------------------------------- Fish Fry -------------------------------------------------------------%>
     <div class="article_header_left">Fish Fry</div>
 
-    Lake Drummond Lodge's annual fall fund raising event.
-        <br />
-
-
+    Lake Drummond Lodge's annual fall fund raising event. <br />
     <div>
-
         <table>
             <tr>
                 <td>
@@ -25,7 +21,6 @@
                         ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
                         OnClick="PayPalBtnFishFry_Click" 
                         ValidationGroup="FishFryValidation" />
-
                 </td>
                 <td>
                     <asp:RequiredFieldValidator
@@ -47,12 +42,8 @@
                         CssClass="Errortext"
                         ErrorMessage="Value must be a whole number" 
                         ValidationGroup="FishFryValidation"/>
-
-
                 </td>
             </tr>
         </table>
     </div>
-
-
 </asp:Panel>

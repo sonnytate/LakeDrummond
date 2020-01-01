@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummondWebApp.PaymentCenter {
-    
-    
-    public partial class Default {
-        
+namespace LakeDrummondWebApp.PaymentCenter
+{
+
+
+    public partial class Default
+    {
+
         /// <summary>
         /// Dues control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace LakeDrummondWebApp.PaymentCenter {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::LakeDrummondWebApp.PaymentCenter.Dues.Dues Dues;
-        
+
         /// <summary>
         /// FishFry control.
         /// </summary>
@@ -29,5 +31,14 @@ namespace LakeDrummondWebApp.PaymentCenter {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::LakeDrummondWebApp.PaymentCenter.FishFry.FishFry FishFry;
+
+        /// <summary>
+        /// Barbecue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UserControl Barbecue;
     }
 }
