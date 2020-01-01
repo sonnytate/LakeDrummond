@@ -270,6 +270,7 @@
     <Content Include="Officers\Officers2018.aspx" />
     <Content Include="Officers\Officers2019.aspx" />
     <Content Include="PastMasters.aspx" />
+    <Content Include="PaymentCenter\Barbecue.ascx" />
     <Content Include="PaymentCenter\Default.aspx" />
     <Content Include="PaymentCenter\Dues\Dues.ascx" />
     <Content Include="PaymentCenter\FishFry\FishFry.ascx" />
@@ -1000,6 +1001,12 @@
     </Compile>
     <Compile Include="PastMasters.aspx.designer.cs">
       <DependentUpon>PastMasters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter\Barbecue.ascx.cs">
+      <DependentUpon>Barbecue.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter\Barbecue.ascx.designer.cs">
+      <DependentUpon>Barbecue.ascx</DependentUpon>
     </Compile>
     <Compile Include="PaymentCenter\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
