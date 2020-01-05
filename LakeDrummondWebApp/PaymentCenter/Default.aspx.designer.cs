@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummondWebApp.PaymentCenter
+namespace LakeDrummondWebApp.PaymentCenter.BuildingFund
 {
 
 
@@ -22,6 +22,15 @@ namespace LakeDrummondWebApp.PaymentCenter
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::LakeDrummondWebApp.PaymentCenter.Dues.Dues Dues;
+
+        /// <summary>
+        /// BuildingFund control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::LakeDrummondWebApp.PaymentCenter.BuildingFund.BuildingFund BuildingFund;
 
         /// <summary>
         /// FishFry control.
@@ -39,6 +48,6 @@ namespace LakeDrummondWebApp.PaymentCenter
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl Barbecue;
+        protected global::LakeDrummondWebApp.PaymentCenter.Barbecue Barbecue;
     }
 }

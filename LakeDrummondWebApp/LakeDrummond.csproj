@@ -116,6 +116,8 @@
     <Content Include="images\boaz.jpg" />
     <Content Include="images\building.jpg" />
     <Content Include="images\building_thumb.jpg" />
+    <Content Include="images\BuyNowButton.png" />
+    <Content Include="images\DonateButton.png" />
     <Content Include="images\facebook-logo.jpg" />
     <Content Include="images\hive.jpg" />
     <Content Include="images\jachin.jpg" />
@@ -271,6 +273,7 @@
     <Content Include="Officers\Officers2019.aspx" />
     <Content Include="PastMasters.aspx" />
     <Content Include="PaymentCenter\Barbecue\Barbecue.ascx" />
+    <Content Include="PaymentCenter\BuildingFund\BuildingFund.ascx" />
     <Content Include="PaymentCenter\Default.aspx" />
     <Content Include="PaymentCenter\Dues\Dues.ascx" />
     <Content Include="PaymentCenter\FishFry\FishFry.ascx" />
@@ -1008,6 +1011,13 @@
     </Compile>
     <Compile Include="PaymentCenter\Barbecue\Barbecue.ascx.designer.cs">
       <DependentUpon>Barbecue.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCenter\BuildingFund\BuildingFund.ascx.cs">
+      <DependentUpon>BuildingFund.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentCenter\BuildingFund\BuildingFund.ascx.designer.cs">
+      <DependentUpon>BuildingFund.ascx</DependentUpon>
     </Compile>
     <Compile Include="PaymentCenter\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

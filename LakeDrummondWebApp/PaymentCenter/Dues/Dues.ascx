@@ -1,5 +1,11 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Dues.ascx.cs" Inherits="LakeDrummondWebApp.PaymentCenter.Dues.Dues" %>
 
+<style>
+    .NameTextBox {
+        width ="100";
+    }
+</style>
+
 <asp:Panel CssClass="border_bottom" ID="DuesPanel" runat="server">
     <br />
     <%-------------------------------------------------------- Annual Dues NOT DONE YET -----------------------------------------------%>
@@ -29,8 +35,8 @@
     </asp:DropDownList>
     <table>
         <tr>
-            <td>Member first name:
-                <asp:TextBox ID="DuesFirstNameTextBox" runat="server" Width="100px"></asp:TextBox>
+            <td>Member First Name:
+                <asp:TextBox ID="DuesFirstNameTextBox" runat="server" CssClass="NameTextBox"></asp:TextBox>
 
                 <asp:RequiredFieldValidator
                     ControlToValidate="DuesFirstNameTextBox"
@@ -38,8 +44,8 @@
                     ID="RequiredFieldValidator1"
                     runat="server"
                     ErrorMessage="This field is required"
-                    ValidationGroup="DuesValidatorGroup"
-                    CssClass="ValidationErrorText" />
+                    CssClass="ValidationErrorText"
+                    ValidationGroup="PaymentCenterValidation" />
 
                 <asp:RegularExpressionValidator
                     Display="dynamic"
@@ -48,14 +54,14 @@
                     runat="server"
                     ValidationExpression="^[a-zA-Z'.\s]{1,50}"
                     ErrorMessage="You must enter a name with no numbers or special characters."
-                    ValidationGroup="DuesValidatorGroup"
-                    CssClass="ValidationErrorText" />
+                    CssClass="ValidationErrorText"
+                    ValidationGroup="PaymentCenterValidation" />
 
             </td>
         </tr>
         <tr>
-            <td>Member last name:
-                <asp:TextBox ID="DuesLastNameTextBox" runat="server" Width="100px"></asp:TextBox>
+            <td>Member Last Name:
+                <asp:TextBox ID="DuesLastNameTextBox" runat="server" CssClass="NameTextBox"></asp:TextBox>
 
                 <asp:RequiredFieldValidator
                     ControlToValidate="DuesLastNameTextBox"
@@ -63,8 +69,8 @@
                     ID="RequiredFieldValidator2"
                     runat="server"
                     ErrorMessage="This field is required"
-                    ValidationGroup="DuesValidatorGroup"
-                    CssClass="ValidationErrorText" />
+                    CssClass="ValidationErrorText"
+                    ValidationGroup="DuesValidatorGroup" />
 
                 <asp:RegularExpressionValidator
                     ID="LastNameRegularExpressionValidator"
@@ -73,17 +79,17 @@
                     runat="server"
                     ValidationExpression="^[a-zA-Z'.\s]{1,50}"
                     ErrorMessage="You must enter a name with no numbers or special characters."
-                    ValidationGroup="DuesValidatorGroup"
-                    CssClass="ValidationErrorText" />
+                    CssClass="ValidationErrorText"
+                    ValidationGroup="DuesValidatorGroup" />
             </td>
         </tr>
         <tr>
-            <td>
+            <td style="text-align: center;">
                 <asp:ImageButton
                     ID="DuesButton"
                     ValidationGroup="DuesValidatorGroup"
                     runat="server"
-                    ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
+                    ImageUrl="~/images/PayPal.png"
                     OnClick="DuesButton_Click" />
             </td>
         </tr>

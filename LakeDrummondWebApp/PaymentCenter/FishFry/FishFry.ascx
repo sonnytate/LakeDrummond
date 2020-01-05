@@ -18,7 +18,7 @@
                     <asp:ImageButton
                         ID="PayPalBtnFishFryEatIn"
                         runat="server"
-                        ImageUrl="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
+                        ImageUrl="~/images/PayPal.png"
                         OnClick="PayPalBtnFishFry_Click" 
                         ValidationGroup="FishFryValidation" />
                 </td>
@@ -28,7 +28,7 @@
                         ControlToValidate="FishFryQtyTextBox"
                         Display="Dynamic"
                         ErrorMessage="The number of tickets is required"
-                        CssClass="Errortext"
+                        CssClass="ValidationErrorText"
                         runat="server"  
                         ValidationGroup="FishFryValidation"/>
 
@@ -39,7 +39,7 @@
                         Display="Dynamic"
                         Operator="DataTypeCheck"
                         Type="Integer"
-                        CssClass="Errortext"
+                        CssClass="ValidationErrorText"
                         ErrorMessage="Value must be a whole number" 
                         ValidationGroup="FishFryValidation"/>
                 </td>
