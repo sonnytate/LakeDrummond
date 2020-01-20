@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="BuildingFund.ascx.cs" Inherits="LakeDrummondWebApp.PaymentCenter.BuildingFund.BuildingFund" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="BuildingFund.ascx.cs" Inherits="LakeDrummondWebApp.PaymentCenter.BuildingFund.BuildingFund" %>
 <asp:Panel CssClass="border_bottom" ID="BuildingFundPanel" runat="server">
     <br />
     <%----------------------------------- Building Fund Contribution -------------------------------------------------------------%>

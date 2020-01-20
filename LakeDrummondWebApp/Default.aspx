@@ -210,10 +210,10 @@ ctz=America%2FNew_York"
                         <td colspan="2" align="center">
                             <div class="officerContainer">
                                 <div class="office">Worshipful Master</div>
-                                <div class="officer">Henry Patton Strickland, PM</div>
+                                <div class="officer">RAYMOND S. ANDERSON</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:henrystrickland@cox.net">henrystrickland@cox.net</a><%--Email--%>
+                                    <a runat="server" href="mailto:fbsrsa@verizon.net">fbsrsa@verizon.net</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
@@ -223,10 +223,10 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Senior Warden</div>
-                                <div class="officer">Raymond Scott Anderson </div>
+                                <div class="officer">PAUL A. WOTRING</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:fbsrsa@verizon.net">fbsrsa@verizon.net</a><%--Email--%>
+                                    <a runat="server" href="mailto:paul.wotring@gmail.com">paul.wotring@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
@@ -234,10 +234,10 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Junior Warden</div>
-                                <div class="officer">Paul Alfred Wotring</div>
+                                <div class="officer">WILLIAM E. PHELPS, JR.</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:paul.wotring@gmail.com">paul.wotring@gmail.com</a><%--Email--%>
+                                    <a runat="server" href="mailto:Wephelps72@gmail.com">Wephelps72@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
@@ -247,10 +247,10 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Senior Deacon</div>
-                                <div class="officer">William Earl Phelps, Jr.</div>
+                                <div class="officer">T. ADAM DRAKE</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:wephelps72@gmail.com">wephelps72@gmail.com</a><%--Email--%>
+                                    <a runat="server" href="mailto:nafeko@gmail.com">nafeko@gmail.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
@@ -258,7 +258,7 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Junior Deacon</div>
-                                <div class="officer">Tony Ray Reynolds</div>
+                                <div class="officer">TONY R. REYNOLDS</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
                                     <a id="A1" runat="server" href="mailto:tonytracy@cox.net">tonytracy@cox.net</a><%--Email--%>
@@ -271,7 +271,7 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Senior Steward</div>
-                                <div class="officer">Bradley Aaron Phelps</div>
+                                <div class="officer">DAVID A. MAPLE</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
                                     <a id="A3" runat="server" href="mailto:bradley.phelps@live.longwood.edu">bradley.phelps@live.longwood.edu</a><%--Email--%>
@@ -282,10 +282,9 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Junior Steward</div>
-                                <div class="officer">Harold B. Phillips, III</div>
+                                <div class="officer">VACANT</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:hbp31968@aol.com">hbp31968@aol.com</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
@@ -295,7 +294,7 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Treasurer</div>
-                                <div class="officer">Raymond Gordon McEvoy, PM </div>
+                                <div class="officer">RAYMOND G. McEVOY, PM </div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
                                     <a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a><%--Email--%>
@@ -306,7 +305,7 @@ ctz=America%2FNew_York"
                         <td align="center">
                             <div class="officerContainer">
                                 <div class="office">Secretary</div>
-                                <div class="officer">Kyle W. Strickland, PM</div>
+                                <div class="officer">KYLE W. STRICKLAND, PM</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
                                     <a runat="server" href="mailto:178secretary@gmail.com">178secretary@gmail.com</a><%--Email--%>
@@ -320,17 +319,17 @@ ctz=America%2FNew_York"
                             <%--<td align="center">--%>
                             <div class="officerContainer">
                                 <div class="office">Marshal</div>
-                                <div class="officer">Roy L. McDaniel, PM</div>
+                                <div class="officer">C. ROYCE MCCOY</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
-                                    <a runat="server" href="mailto:royleemcdaniel1@gmail.com">royleemcdaniel1@gmail.com</a><%--Email--%>
+                                    <a runat="server" href="mailto:devilmac03@cox.net">devilmac03@cox.net</a><%--Email--%>
                                 </div>
                             </div>
                         </td>
                         <!-- -------------------------------------------  Chaplain  -------------------------------------------- -->
                         <td align="center">
                             <div class="office">Chaplain</div>
-                            <div class="officer">C. A. "Chris" Allsbrook, PM</div>
+                            <div class="officer">CHRISTOPHER A. ALLSBROOK., PM</div>
                             <%--Officer Name--%>
                             <div class="officerEmail">
                                 <a id="A2" runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a><%--Email--%>
@@ -342,7 +341,7 @@ ctz=America%2FNew_York"
                         <td align="center" colspan="2">
                             <div class="officerContainer">
                                 <div class="office">Tiler</div>
-                                <div class="officer">H. M. "Marty" Hatfield, PM</div>
+                                <div class="officer">H.M. "MARTY" HATFIELD, PM</div>
                                 <%--Officer Name--%>
                                 <div class="officerEmail">
                                 </div>
