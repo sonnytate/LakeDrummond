@@ -60,7 +60,7 @@
             dlPictures.DataBind();
         }
     </script>
-    <h3>Feburary 2016 Stated Photos</h3>
+    <h3>February 2016 Stated Photos</h3>
     Click on an image for a full-sized view.
     <asp:DataList runat="server" ID="dlPictures" RepeatColumns="4" GridLines="Both" ItemStyle-HorizontalAlign="Center" CellPadding="20" CellSpacing="0" BorderColor="Black"
         BorderStyle="Solid" BorderWidth="1" HorizontalAlign="Center" VerticalAlign="Middle">

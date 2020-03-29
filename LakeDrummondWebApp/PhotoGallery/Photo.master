@@ -23,6 +23,7 @@
             <br />
             <a runat="Server" href="Default.aspx">Photo Gallery Home Page</a>
             <br />
+            &bull;<a runat="server" href="~/PhotoGallery/2020_Installation/Default.aspx">2020 Installation of Officers</a>
             &bull;<a runat="server" href="~/PhotoGallery/2016_02_photos/Default.aspx">2016 Feb Stated Photos</a>
             &bull;<a runat="server" href="~/PhotoGallery/2016_01_photos/Default.aspx"> 2016 Jan Stated Photos</a>
             &bull;<a runat="Server" href="~/PhotoGallery/2014_gm_visit/Default.aspx"> 2014 Grand Master's Visit to Lake Drummond</a>
