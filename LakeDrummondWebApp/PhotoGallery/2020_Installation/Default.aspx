@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PhotoGallery/Photo.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="LakeDrummondWebApp.PhotoGallery._2020_Installation.Default" %>
-
 <%@ Import Namespace="System.IO" %>
 <asp:Content ID="PhotoMainContent" ContentPlaceHolderID="PhotoMain" runat="server">
     <script language="c#" runat="server">
