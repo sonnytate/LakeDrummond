@@ -26,7 +26,7 @@ namespace LakeDrummondWebApp.PaymentCenter.BuildingFund
             const string itemName = "Building fund contribution";
             double itemAmount = Convert.ToDouble(BuildingFundTextBox.Text);  // US Dollars
 
-            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount, true);
+            StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount);
             Response.Redirect(paypalHref.ToString(), true);
         }
     }
