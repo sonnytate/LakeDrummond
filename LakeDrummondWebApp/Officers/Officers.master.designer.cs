@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummond.Officers {
-    
-    
-    public partial class Officers {
-        
+namespace LakeDrummond.Officers
+{
+
+
+    public partial class Officers
+    {
+
         /// <summary>
         /// OfficerPageScript control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder OfficerPageScript;
-        
+
         /// <summary>
         /// OfficerPageStyle control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder OfficerPageStyle;
-        
+
         /// <summary>
         /// OfficerMenu control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder OfficerMenu;
-        
+
         /// <summary>
         /// Offers2008 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2008;
-        
+
         /// <summary>
         /// Offers2009 control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2009;
-        
+
         /// <summary>
         /// Offers2010 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2010;
-        
+
         /// <summary>
         /// Offers2011 control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2011;
-        
+
         /// <summary>
         /// Offers2012 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2012;
-        
+
         /// <summary>
         /// Offers2013 control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2013;
-        
+
         /// <summary>
         /// Offers2014 control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2014;
-        
+
         /// <summary>
         /// Offers2015 control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2015;
-        
+
         /// <summary>
         /// Offers2016 control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2016;
-        
+
         /// <summary>
         /// Offers2017 control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2017;
-        
+
         /// <summary>
         /// Offers2018 control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2018;
-        
+
         /// <summary>
         /// Offers2019 control.
         /// </summary>
@@ -146,7 +148,16 @@ namespace LakeDrummond.Officers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2019;
-        
+
+        /// <summary>
+        /// Offers2020 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor Offers2020;
+
         /// <summary>
         /// OfficerMain control.
         /// </summary>
