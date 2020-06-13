@@ -14,23 +14,32 @@
         <a id="A25" runat="server" target="_blank" href="ld_bulletin_2015_4q.pdf">4th Quarter - October, November, December - 2015 - Vol 42 No. 4</a><br />
     </div>
     --%>
+    <%------------------------------------- 2020 ---------------------------------------------------%>
+
 
     <%------------------------------------- 2017 / 2018 ---------------------------------------------------%>
-    <div class="list_center">
-        <div class="year_header">
-            2017 - 143rd Year 
+    <div class="list_container">
+
+        <div class="list_left">
+            <div class="year_header">
+                2017 - 143rd Year 
+            </div>
+            <a id="A22" runat="server" target="_blank" href="ld_bulletin_2017_1q.pdf">1st Quarter - Jan, Feb, March - 2017 - Vol 44 No. 1</a><br />
+            <a id="A24" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_02_sup.pdf">Web Supplement - February - 2017 </a>
+            <br />
+            <a id="A28" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_03_sup.pdf">Web Supplement - March - 2017 </a>
+            <br />
+            <a id="A31" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_04_sup.pdf">Web Supplement - April - 2017 </a>
         </div>
-        <a id="A22" runat="server" target="_blank" href="ld_bulletin_2017_1q.pdf">1st Quarter - Jan, Feb, March - 2017 - Vol 44 No. 1</a><br />
-        <a id="A24" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_02_sup.pdf">Web Supplement - February - 2017 </a>
-        <br />
-        <a id="A28" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_03_sup.pdf">Web Supplement - March - 2017 </a>
-        <br />
-        <a id="A31" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_04_sup.pdf">Web Supplement - April - 2017 </a>
-        <%--        
-        <a id="A24" runat="server" target="_blank" href="ld_bulletin_2017_2q.pdf">2nd Quarter - April, May, June - 2017 - Vol 44 No. 2</a><br />
-        <a id="A28" runat="server" target="_blank" href="ld_bulletin_2017_3q.pdf">3rd Quarter - July, August, September - 2017 - Vol 44 No. 3</a><br />
-        <a id="A31" runat="server" target="_blank" href="ld_bulletin_2017_4q.pdf">4th Quarter - October, November, December - 2017 - Vol 44 No. 4</a><br />
-        --%>
+
+        <div class="list_right">
+            <div class="year_header">
+                2020 - 146th Year 
+            </div>
+            <a id="A32" runat="server" target="_blank" href="ld_bulletin_2020_01_sup.pdf">Web Supplement - June - 2020</a><br />
+
+        </div>
+
     </div>
 
     <%------------------------------------- 2015 / 2016 ---------------------------------------------------%>

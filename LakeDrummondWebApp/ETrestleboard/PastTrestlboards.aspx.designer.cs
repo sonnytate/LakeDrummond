@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummond.ETrestleboard {
-    
-    
-    public partial class PastTrestlboards {
-        
+namespace LakeDrummond.ETrestleboard
+{
+
+
+    public partial class PastTrestlboards
+    {
+
         /// <summary>
         /// A22 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A22;
-        
+
         /// <summary>
         /// A24 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A24;
-        
+
         /// <summary>
         /// A28 control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A28;
-        
+
         /// <summary>
         /// A31 control.
         /// </summary>
@@ -47,7 +49,16 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A31;
-        
+
+        /// <summary>
+        /// A32 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor A32;
+
         /// <summary>
         /// A23 control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A23;
-        
+
         /// <summary>
         /// A25 control.
         /// </summary>
@@ -65,7 +76,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A25;
-        
+
         /// <summary>
         /// A30 control.
         /// </summary>
@@ -74,7 +85,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A30;
-        
+
         /// <summary>
         /// A5 control.
         /// </summary>
@@ -83,7 +94,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A5;
-        
+
         /// <summary>
         /// A7 control.
         /// </summary>
@@ -92,7 +103,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A7;
-        
+
         /// <summary>
         /// A20 control.
         /// </summary>
@@ -101,7 +112,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A20;
-        
+
         /// <summary>
         /// A21 control.
         /// </summary>
@@ -110,7 +121,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A21;
-        
+
         /// <summary>
         /// A26 control.
         /// </summary>
@@ -119,7 +130,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A26;
-        
+
         /// <summary>
         /// A27 control.
         /// </summary>
@@ -128,7 +139,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A27;
-        
+
         /// <summary>
         /// A29 control.
         /// </summary>
@@ -137,7 +148,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A29;
-        
+
         /// <summary>
         /// A1 control.
         /// </summary>
@@ -146,7 +157,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A1;
-        
+
         /// <summary>
         /// A2 control.
         /// </summary>
@@ -155,7 +166,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A2;
-        
+
         /// <summary>
         /// A3 control.
         /// </summary>
@@ -164,7 +175,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A3;
-        
+
         /// <summary>
         /// A4 control.
         /// </summary>
@@ -173,7 +184,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A4;
-        
+
         /// <summary>
         /// A17 control.
         /// </summary>
@@ -182,7 +193,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A17;
-        
+
         /// <summary>
         /// A18 control.
         /// </summary>
@@ -191,7 +202,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A18;
-        
+
         /// <summary>
         /// A19 control.
         /// </summary>
@@ -200,7 +211,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A19;
-        
+
         /// <summary>
         /// A6 control.
         /// </summary>
@@ -209,7 +220,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A6;
-        
+
         /// <summary>
         /// A8 control.
         /// </summary>
@@ -218,7 +229,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A8;
-        
+
         /// <summary>
         /// A9 control.
         /// </summary>
@@ -227,7 +238,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A9;
-        
+
         /// <summary>
         /// A10 control.
         /// </summary>
@@ -236,7 +247,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A10;
-        
+
         /// <summary>
         /// A11 control.
         /// </summary>
@@ -245,7 +256,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A11;
-        
+
         /// <summary>
         /// A12 control.
         /// </summary>
@@ -254,7 +265,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A12;
-        
+
         /// <summary>
         /// A13 control.
         /// </summary>
@@ -263,7 +274,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A13;
-        
+
         /// <summary>
         /// A14 control.
         /// </summary>
@@ -272,7 +283,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A14;
-        
+
         /// <summary>
         /// A15 control.
         /// </summary>
@@ -281,7 +292,7 @@ namespace LakeDrummond.ETrestleboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A15;
-        
+
         /// <summary>
         /// A16 control.
         /// </summary>

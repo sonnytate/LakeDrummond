@@ -1475,6 +1475,10 @@
     <Content Include="Announcements\Scholarship\Lake Drummond Scholarship Application 2017.pdf" />
     <Content Include="Announcements\Scholarship\Lake Drummond Scholarship Guidelines 2017.pdf" />
     <Content Include="LakeDrummond.Master" />
+    <Content Include="ETrestleboard\ld_bulletin_2017_02_sup.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2017_03_sup.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2017_04_sup.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2020_01_sup.pdf" />
     <None Include="packages.config" />
     <Content Include="PhotoGallery\Photo.master" />
     <Content Include="PhotoGallery\2013_installation_officers\Installation2013.master" />
