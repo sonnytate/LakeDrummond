@@ -78,8 +78,8 @@
                         <a id="PastMasters" runat="server" href="PastMasters.aspx">Past Masters</a> &#8226;
                         <a id="Links" runat="server" href="Links.aspx">Links & 36th District Meeting Times</a> &#8226;
                         <a id="GrandLodge" runat="server" target="_blank" href="https://grandlodgeofvirginia.org/">Grand Lodge Of Virginia</a> &#8226;
-                        <a id="ETrestleboard" runat="server" href="~/ETrestleboard/ld_bulletin_2020_01_sup.pdf" target="_blank"><b>Current ETrestleboard</b> </a>&#8226;
-                        <a id="Supplement" runat="server" href="~/ETrestleboard/ld_bulletin_2020_01_sup.pdf" target="_blank"><b>Current ETrestleboard Supplement</b> </a>&#8226;
+                        <a id="ETrestleboard" runat="server" href="~/ETrestleboard/ld_bulletin_2020_02_sup.pdf" target="_blank"><b>Current ETrestleboard</b> </a>&#8226;
+                        <a id="Supplement" runat="server" href="~/ETrestleboard/ld_bulletin_2020_02_sup.pdf" target="_blank"><b>Current ETrestleboard Supplement</b> </a>&#8226;
                         <a id="PastTrestlboards" runat="server" href="ETrestleboard/PastTrestlboards.aspx">Past Trestleboards and Web Supplements</a>
                     </div>
                     <!-- menu_container -->

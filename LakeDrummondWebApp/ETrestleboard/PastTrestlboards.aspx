@@ -14,10 +14,10 @@
         <a id="A25" runat="server" target="_blank" href="ld_bulletin_2015_4q.pdf">4th Quarter - October, November, December - 2015 - Vol 42 No. 4</a><br />
     </div>
     --%>
-    <%------------------------------------- 2020 ---------------------------------------------------%>
 
 
-    <%------------------------------------- 2017 / 2018 ---------------------------------------------------%>
+
+    <%------------------------------------- 2017 / 2020 ---------------------------------------------------%>
     <div class="list_container">
 
         <div class="list_left">
@@ -36,8 +36,8 @@
             <div class="year_header">
                 2020 - 146th Year 
             </div>
+            <a id="A33" runat="server" target="_blank" href="ld_bulletin_2020_02_sup.pdf">Web Supplement - July - 2020</a><br />
             <a id="A32" runat="server" target="_blank" href="ld_bulletin_2020_01_sup.pdf">Web Supplement - June - 2020</a><br />
-
         </div>
 
     </div>
