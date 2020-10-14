@@ -36,8 +36,10 @@
             <div class="year_header">
                 2020 - 146th Year 
             </div>
+            <a id="A34" runat="server" target="_blank" href="ld_bulletin_2020_03_sup.pdf">Web Supplement - Oct - 2020</a><br />
             <a id="A33" runat="server" target="_blank" href="ld_bulletin_2020_02_sup.pdf">Web Supplement - July - 2020</a><br />
             <a id="A32" runat="server" target="_blank" href="ld_bulletin_2020_01_sup.pdf">Web Supplement - June - 2020</a><br />
+
         </div>
 
     </div>
