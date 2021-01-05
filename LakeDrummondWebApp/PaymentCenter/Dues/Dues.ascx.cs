@@ -35,6 +35,11 @@ namespace LakeDrummondWebApp.PaymentCenter.Dues
                     itemName = "2020 Dues - " + memberName; 
                     itemAmount = 175.39;  // US Dollars
                     break;
+
+                case "2021 Dues":
+                    itemName = "2020 Dues - " + memberName;
+                    itemAmount = 175.39;  // US Dollars
+                    break;
             }
             StringBuilder paypalHref = PaypalAccount.AccountInformation(itemName, itemAmount);
             Response.Redirect(paypalHref.ToString(), true);

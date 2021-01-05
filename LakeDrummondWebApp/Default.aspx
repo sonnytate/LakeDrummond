@@ -19,15 +19,15 @@
         }
 
         div.officer_container {
-            width: 200px;
-            float: left;
-            text-align: center;
-            margin: 5px 0px;
         }
 
         div.office {
             font-weight: bold;
             text-decoration: underline;
+        }
+
+        td.OfficerTableCell {
+            text-align: center;
         }
     </style>
 </asp:Content>
@@ -160,15 +160,203 @@
 
         </div>
 
+                <%------- Article: Current Officers -----%>
+        <div class="article" style="clear: both;">
+
+            <div class="article_header">Current Officers</div>
+
+            This area of the website will introduce you to Lake Drummond's officers 
+                for the current year. Contact information and a picture is provide for your 
+                convenience.  Please feel free to contact any Officer for information regarding 
+                Masonry.
+
+            <%--Officers List--%>
+            <div style="width: 500px; margin: 10px auto; clear: both;">
+                <table border="0" style="width: 500px; border-spacing: 5px;">
+                    <%----------------------- Worshipful Master ------------------------------------%>
+                    <tr>
+                        <td colspan="2" class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Worshipful Master</div>
+                                <div class="officer">Paul Alfred Wotring </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:paul.wotring@gmail.com">paul.wotring@gmail.com</a></div>
+                                <div class="officerPhone">(757) 510-0946</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Senior Warden ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Senior Warden</div>
+                                <div class="officer">William Earl Phelps, Jr. </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:wephelps72@gmail.com">wephelps72@gmail.com </a></div>
+                                <div class="officerPhone">(757) 235-0635</div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Warden ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Junior Warden</div>
+                                <div class="officer">Thomas Adam Drake </div>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:nafeko@gmail.com">nafeko@gmail.com</a>/div>
+                                <div class="officerPhone">(757) 289-8773</div>
+                                </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Senior Deacon ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Senior Deacon</div>
+                                <div class="officer">Marshall Worth Tatem, Jr.  </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:bubbatatem@cox.net">bubbatatem@cox.net</a></div>
+                                <div class="officerPhone">(757) 248-6871</div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Deacon ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Junior Deacon</div>
+                                <div class="officer">Bradley Aaron Phelps</div>
+                                <div class="officerEmail"><a runat="server" href="mailto:Bradley.phelps@live.longwood.edu">Bradley.phelps@live.longwood.edu </a></div>
+                                <div class="officerPhone">(757) 235-2548</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- ----------------------------------- Senior Steward ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Senior Steward</div>
+                                <div class="officer">Robert Earl Allen </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:ballen@tidewaterfleetsupply.com">ballen@tidewaterfleetsupply.com</a></div>
+                                <div class="officerPhone">(757) 418-1966</div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Junior Steward ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Junior Steward</div>
+                                <div class="officer">David Allen Maple </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:d.maple@methos.net ">d.maple@methos.net m</a></div>
+                                <div class="officerPhone">(757) 633-3866</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Treasurer ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Treasurer</div>
+                                <div class="officer">Raymond Gordon McEvoy, PM </div>
+                                <div class="officerEmail">
+                                    <a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a>
+                                </div>
+                                <div class="officerPhone">(757) 248-6871</div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Secretary ---------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Secretary</div>
+                                <div class="officer">Kyle William Strickland, PM</div>
+                                <div class="officerEmail"><a runat="server" href="mailto:178secretary@gmail.com">178secretary@gmail.com</a></div>
+                                <div class="officerPhone">(757)754-1671</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="OfficerTableCell">
+                            <!-- -------------------------------------- Marshal --------------------------------------------- -->
+                            <div class="officerContainer">
+                                <div class="office">Marshal</div>
+                                <div class="officer">Gregory Thomas Gustafson </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:gregory.gustafson@yahoo.com ">gregory.gustafson@yahoo.com</a></div>
+                                <div class="officerPhone">(757) 681-373</div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------------  Chaplain  -------------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="office">Chaplain</div>
+                            <div class="officer">Christopher Andrew Allsbrook, PM </div>
+                            <div class="officerEmail"><a runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a></div>
+                            <div class="officerPhone">(757) 434-0641</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Tiler -------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Tiler</div>
+                                <div class="officer">Rodger Dale Jones</div>
+                                <div class="officerEmail"><a runat="server" href="mailto:rascal4383@yahoo.com">rascal4383@yahoo.com</a></div>
+                                <div class="officerPhone">(757) 377-0375</div>
+                            </div>
+                            <!-- -------------------------------------- Assoc Treas -------------------------------------- -->
+                            <td class="OfficerTableCell">
+                                <div class="officerContainer">
+                                    <div class="office">Associate Treasurer</div>
+                                    <div class="officer">William M. Mutter, PM </div>
+                                    <div class="officerEmail"><a runat="server" href="mailto:billymutter@yahoo.com">billymutter@yahoo.com</a></div>
+                                    <div class="officerPhone">(757) 620-3010</div>
+                                </div>
+                            </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Assoc Sec -------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Associate Secretary</div>
+                                <div class="officer">Henry Patton Strickland, PM </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:henrystrickland@cox.net">henrystrickland@cox.net</a></div>
+                                <div class="officerPhone">(757) 374-4548</div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Assoc Chaplain -------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Associated Chaplain</div>
+                                <div class="officer">Richard A. Studebaker</div>
+                                <div class="officerEmail"><a runat="server" href="mailto:richardstudebaker@cox.net">richardstudebaker@cox.net</a></div>
+                                <div class="officerPhone">(757) 513-7700</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- -------------------------------------- Assoc Marshal -------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Associate Marshal</div>
+                                <div class="officer">Edward Jesus Corona</div>
+                                <div class="officerEmail"><a runat="server" href="mailto:ecrwn@cox.net">ecrwn@cox.net </a></div>
+                                <div class="officerPhone">(757) 846-1663 </div>
+                            </div>
+                        </td>
+                        <!-- -------------------------------------- Assoc Tiler -------------------------------------- -->
+                        <td class="OfficerTableCell">
+                            <div class="officerContainer">
+                                <div class="office">Associate Tiler</div>
+                                <div class="officer">Charles Royce McCoy</div>
+                                <div class="officerEmail"><a runat="server" href="mailto:devilmac03@cox.net">devilmac03@cox.net</a></div>
+                                <div class="officerPhone">(757) 647-6597</div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
     </div>
 
-    <%-------------------------------------- Column 2 ----------------------------------------------%>
+    <%-------------------------------------- Column 2 ------------------------------------------------------------------------------------------------------------------------%>
     <div class="col">
 
         <%-- Article: Google Calendar Events --%>
         <div class="article">
             <iframe src="https://www.google.com/calendar/embed?
-height=600&amp;
+height=1200&amp;
 wkst=1&amp;
 bgcolor=%23FFFFFF&amp;
 src=ftckbefkel7j109jr4gaoppcks%40group.calendar.google.com&amp;color=%23AB8B00&amp;
@@ -188,169 +376,10 @@ src=9p1ilqt3hbg8941c920rmkkfjg%40group.calendar.google.com&amp;
 color=%232952A3&amp;
 mode=AGENDA&amp;
 ctz=America%2FNew_York"
-                style="border-width: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                style="border-width: 0" width="100%" height="1500" frameborder="0" scrolling="no"></iframe>
 
         </div>
 
-        <%------- Article: Current Officers -----%>
-        <div class="article" style="clear: both;">
 
-            <div class="article_header">Current Officers</div>
-
-            This area of the website will introduce you to Lake Drummond's officers 
-                for the current year. Contact information and a picture is provide for your 
-                convenience.  Please feel free to contact any Officer for information regarding 
-                Masonry.
-
-            <%--Officers List--%>
-            <div style="width: 500px; margin: 10px auto; clear: both;">
-                <table border="0" width="500px" cellspacing="20px">
-                    <%----------------------- Worshipful Master ------------------------------------%>
-                    <tr>
-                        <td colspan="2" align="center">
-                            <div class="officerContainer">
-                                <div class="office">Worshipful Master</div>
-                                <div class="officer">RAYMOND S. ANDERSON</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:fbsrsa@verizon.net">fbsrsa@verizon.net</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- -------------------------------------- Senior Warden ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Senior Warden</div>
-                                <div class="officer">PAUL A. WOTRING</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:paul.wotring@gmail.com">paul.wotring@gmail.com</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                        <!-- -------------------------------------- Junior Warden ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Junior Warden</div>
-                                <div class="officer">WILLIAM E. PHELPS, JR.</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:Wephelps72@gmail.com">Wephelps72@gmail.com</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- -------------------------------------- Senior Deacon ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Senior Deacon</div>
-                                <div class="officer">T. ADAM DRAKE</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:nafeko@gmail.com">nafeko@gmail.com</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                        <!-- -------------------------------------- Junior Deacon ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Junior Deacon</div>
-                                <div class="officer">TONY R. REYNOLDS</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a id="A1" runat="server" href="mailto:tonytracy@cox.net">tonytracy@cox.net</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- ----------------------------------- Senior Steward ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Senior Steward</div>
-                                <div class="officer">DAVID A. MAPLE</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a id="A3" runat="server" href="mailto:bradley.phelps@live.longwood.edu">bradley.phelps@live.longwood.edu</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                        <!-- -------------------------------------- Junior Steward ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Junior Steward</div>
-                                <div class="officer">VACANT</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- -------------------------------------- Treasurer ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Treasurer</div>
-                                <div class="officer">RAYMOND G. McEVOY, PM </div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                        <!-- -------------------------------------- Secretary ---------------------------------------------- -->
-                        <td align="center">
-                            <div class="officerContainer">
-                                <div class="office">Secretary</div>
-                                <div class="officer">KYLE W. STRICKLAND, PM</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:178secretary@gmail.com">178secretary@gmail.com</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <!-- -------------------------------------- Marshal --------------------------------------------- -->
-                            <%--<td align="center">--%>
-                            <div class="officerContainer">
-                                <div class="office">Marshal</div>
-                                <div class="officer">C. ROYCE MCCOY</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:devilmac03@cox.net">devilmac03@cox.net</a><%--Email--%>
-                                </div>
-                            </div>
-                        </td>
-                        <!-- -------------------------------------------  Chaplain  -------------------------------------------- -->
-                        <td align="center">
-                            <div class="office">Chaplain</div>
-                            <div class="officer">CHRISTOPHER A. ALLSBROOK., PM</div>
-                            <%--Officer Name--%>
-                            <div class="officerEmail">
-                                <a id="A2" runat="server" href="mailto:callsbrook@cox.net">callsbrook@cox.net</a><%--Email--%>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- -------------------------------------- Tiler -------------------------------------- -->
-                        <td align="center" colspan="2">
-                            <div class="officerContainer">
-                                <div class="office">Tiler</div>
-                                <div class="officer">H.M. "MARTY" HATFIELD, PM</div>
-                                <%--Officer Name--%>
-                                <div class="officerEmail">
-                                </div>
-                            </div>
-                        </td>
-
-                    </tr>
-                </table>
-            </div>
-        </div>
     </div>
 </asp:Content>

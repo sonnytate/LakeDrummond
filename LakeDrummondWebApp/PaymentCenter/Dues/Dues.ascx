@@ -30,6 +30,7 @@
     </p>
 
     <asp:DropDownList runat="server" ID="DuesSelection">
+        <asp:ListItem Text="2021 ($175.39)" Value="2021 Dues"></asp:ListItem>
         <asp:ListItem Text="2020 ($175.39)" Value="2020 Dues"></asp:ListItem>
         <asp:ListItem Text="2019 ($170.24)" Value="2019 Dues"></asp:ListItem>
     </asp:DropDownList>

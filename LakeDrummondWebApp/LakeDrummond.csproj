@@ -284,6 +284,7 @@
     <Content Include="Officers\Officers2016.aspx" />
     <Content Include="Officers\Officers2017.aspx" />
     <Content Include="Officers\Officers2018.aspx" />
+    <Content Include="Officers\Officers2021.aspx" />
     <Content Include="Officers\Officers2020.aspx" />
     <Content Include="Officers\Officers2019.aspx" />
     <Content Include="PastMasters.aspx" />
@@ -1043,6 +1044,13 @@
     <Compile Include="Officers\Officers2018.aspx.designer.cs">
       <DependentUpon>Officers2018.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Officers\Officers2021.aspx.cs">
+      <DependentUpon>Officers2021.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Officers\Officers2021.aspx.designer.cs">
+      <DependentUpon>Officers2021.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Officers\Officers2020.aspx.cs">
       <DependentUpon>Officers2020.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1496,6 +1504,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\Officers\officers_2021\" />
     <Folder Include="Models\" />
     <Folder Include="ServiceAwards\Images60yr\" />
   </ItemGroup>

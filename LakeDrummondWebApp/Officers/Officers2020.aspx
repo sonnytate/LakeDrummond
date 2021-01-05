@@ -63,8 +63,7 @@
         </div>
         <div class="img-cell">
             <div class="image-text-title">Junior Steward </div>
-            <img id="Img7" class="officers" alt="Image not available" runat="server" />
-            <%--src="~/images/Officers/officers_2020/JuniorSteward.jpg" />--%>
+            <img id="Img7" class="officers" alt="Image not available" runat="server" src="~/images/Officers/officers_2020/JuniorSteward.jpg" />
             <div class="image-text">Vacant</div>
         </div>
     </div>
@@ -94,7 +93,7 @@
             <div class="image-text">Henry P. Strickland, PM</div>
         </div>
     </div>
-    <!-- -------------------------------------- Tiler/Treasurer -------------------------------------- -->
+    <!-- -------------------------------------- Tilers -------------------------------------- -->
     <div class="image-row">
         <div class="img-cell">
             <div class="image-text-title">Tiler</div>
