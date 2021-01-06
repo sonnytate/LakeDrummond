@@ -178,7 +178,7 @@
                         <td colspan="2" class="OfficerTableCell">
                             <div class="officerContainer">
                                 <div class="office">Worshipful Master</div>
-                                <div class="officer">Paul Alfred Wotring </div>
+                                <div class="officer">Paul Alfred Wotring</div>
                                 <div class="officerEmail"><a runat="server" href="mailto:paul.wotring@gmail.com">paul.wotring@gmail.com</a></div>
                                 <div class="officerPhone">(757) 510-0946</div>
                             </div>
@@ -199,10 +199,8 @@
                             <div class="officerContainer">
                                 <div class="office">Junior Warden</div>
                                 <div class="officer">Thomas Adam Drake </div>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:nafeko@gmail.com">nafeko@gmail.com</a>/div>
+                                <div class="officerEmail"><a runat="server" href="mailto:nafeko@gmail.com">nafeko@gmail.com</a></div>
                                 <div class="officerPhone">(757) 289-8773</div>
-                                </div>
                         </td>
                     </tr>
                     <tr>
@@ -251,9 +249,7 @@
                             <div class="officerContainer">
                                 <div class="office">Treasurer</div>
                                 <div class="officer">Raymond Gordon McEvoy, PM </div>
-                                <div class="officerEmail">
-                                    <a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a>
-                                </div>
+                                <div class="officerEmail"><a runat="server" href="mailto:raymond.mcevoy1@verizon.net">raymond.mcevoy1@verizon.net</a></div>
                                 <div class="officerPhone">(757) 248-6871</div>
                             </div>
                         </td>
@@ -301,7 +297,7 @@
                                     <div class="officer">William M. Mutter, PM </div>
                                     <div class="officerEmail"><a runat="server" href="mailto:billymutter@yahoo.com">billymutter@yahoo.com</a></div>
                                     <div class="officerPhone">(757) 620-3010</div>
-                                </div>
+                                    </div>
                             </td>
                     </tr>
                     <tr>
@@ -347,7 +343,6 @@
                 </table>
             </div>
         </div>
-
     </div>
 
     <%-------------------------------------- Column 2 ------------------------------------------------------------------------------------------------------------------------%>
