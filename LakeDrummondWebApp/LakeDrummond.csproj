@@ -1489,6 +1489,7 @@
     <Content Include="ETrestleboard\ld_bulletin_2020_01_sup.pdf" />
     <Content Include="ETrestleboard\ld_bulletin_2020_02_sup.pdf" />
     <Content Include="ETrestleboard\ld_bulletin_2020_03_sup.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2021_01.pdf" />
     <None Include="packages.config" />
     <Content Include="PhotoGallery\Photo.master" />
     <Content Include="PhotoGallery\2013_installation_officers\Installation2013.master" />

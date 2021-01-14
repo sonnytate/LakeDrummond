@@ -15,7 +15,17 @@
     </div>
     --%>
 
+    <%------------------------------------- 2021 / 2022 ---------------------------------------------------%>
+    <div class="list_container">
 
+        <div class="list_left">
+            <div class="year_header">
+                2021 - 147th Year 
+            </div>
+            <a id="A39" runat="server" target="_blank" href="ld_bulletin_2021_01.pdf">January 2021</a><br />
+        </div>
+
+    </div>
 
     <%------------------------------------- 2017 / 2020 ---------------------------------------------------%>
     <div class="list_container">
