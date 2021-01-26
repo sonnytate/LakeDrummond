@@ -48,7 +48,7 @@ importantly our Past Masters are the columns that support Lake Drummond Masonic 
 		<div class="mm_year">2001</div><div class="mm">Roy L. McDaniels</div>
 		<div class="mm_year">2000</div><div class="mm">Harry C. Slaughter</div>
 		<div class="mm_year">1999</div><div class="mm">Timothy Magas**</div>
-		<div class="mm_year">1998</div><div class="mm">Phillip W Morley, Jr.</div>
+		<div class="mm_year">1998</div><div class="mm">Philip W Morley, Jr.</div>
 		<div class="mm_year">1997</div><div class="mm">Richard L. Elrod</div>
 		<div class="mm_year">1996</div><div class="mm">Gary R. Tester</div>
 		<div class="mm_year">1995</div><div class="mm">William R. Manier</div>
