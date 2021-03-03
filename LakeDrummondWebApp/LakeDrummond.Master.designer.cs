@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummond {
-    
-    
-    public partial class LakeDrummond {
-        
+namespace LakeDrummond
+{
+
+
+    public partial class LakeDrummond
+    {
+
         /// <summary>
         /// Head1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
-        
+
         /// <summary>
         /// Link1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink Link1;
-        
+
         /// <summary>
         /// Link2 control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink Link2;
-        
+
         /// <summary>
         /// PageScript control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder PageScript;
-        
+
         /// <summary>
         /// PageStyle control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder PageStyle;
-        
+
         /// <summary>
         /// MasterForm control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm MasterForm;
-        
+
         /// <summary>
         /// ScriptManager control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.ScriptManager ScriptManager;
-        
+
         /// <summary>
         /// header control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder header;
-        
+
         /// <summary>
         /// Img1 control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage Img1;
-        
+
         /// <summary>
         /// Img2 control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage Img2;
-        
+
         /// <summary>
         /// Img3 control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage Img3;
-        
+
         /// <summary>
         /// menu control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder menu;
-        
+
         /// <summary>
         /// Default control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Default;
-        
+
         /// <summary>
         /// PaymentCenter control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor PaymentCenter;
-        
+
         /// <summary>
         /// FundRaiser control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor FundRaiser;
-        
+
         /// <summary>
         /// Officers control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Officers;
-        
+
         /// <summary>
         /// Calendar control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Calendar;
-        
+
         /// <summary>
         /// PhotoGallery control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor PhotoGallery;
-        
+
         /// <summary>
         /// ServiceAwards60Year control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor ServiceAwards60Year;
-        
+
         /// <summary>
         /// ServiceAwards50Year control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor ServiceAwards50Year;
-        
+
         /// <summary>
         /// ServiceAwards25Year control.
         /// </summary>
@@ -200,7 +202,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor ServiceAwards25Year;
-        
+
         /// <summary>
         /// InMemoriam control.
         /// </summary>
@@ -209,7 +211,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor InMemoriam;
-        
+
         /// <summary>
         /// History control.
         /// </summary>
@@ -218,7 +220,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor History;
-        
+
         /// <summary>
         /// PastMasters control.
         /// </summary>
@@ -227,7 +229,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor PastMasters;
-        
+
         /// <summary>
         /// Links control.
         /// </summary>
@@ -236,7 +238,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor Links;
-        
+
         /// <summary>
         /// GrandLodge control.
         /// </summary>
@@ -245,7 +247,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor GrandLodge;
-        
+
         /// <summary>
         /// ETrestleboard control.
         /// </summary>
@@ -254,16 +256,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor ETrestleboard;
-        
-        /// <summary>
-        /// Supplement control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor Supplement;
-        
+
         /// <summary>
         /// PastTrestlboards control.
         /// </summary>
@@ -272,7 +265,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor PastTrestlboards;
-        
+
         /// <summary>
         /// main control.
         /// </summary>
@@ -281,7 +274,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder main;
-        
+
         /// <summary>
         /// footer control.
         /// </summary>
@@ -290,7 +283,7 @@ namespace LakeDrummond {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder footer;
-        
+
         /// <summary>
         /// A8 control.
         /// </summary>
