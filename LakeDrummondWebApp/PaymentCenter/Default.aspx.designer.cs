@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LakeDrummondWebApp.PaymentCenter.BuildingFund
+namespace LakeDrummondWebApp.PaymentCenter
 {
 
 
@@ -22,15 +22,6 @@ namespace LakeDrummondWebApp.PaymentCenter.BuildingFund
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::LakeDrummondWebApp.PaymentCenter.Dues.Dues Dues;
-
-        /// <summary>
-        /// BuildingFund control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::LakeDrummondWebApp.PaymentCenter.BuildingFund.BuildingFund BuildingFund;
 
         /// <summary>
         /// FishFry control.

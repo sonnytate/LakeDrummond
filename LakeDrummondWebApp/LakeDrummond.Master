@@ -65,6 +65,7 @@
                 <div class="menu_container">
                     <div class="menu">
                         <a id="Default" runat="server" href="Default.aspx">Home</a> &#8226;
+                        <a id="BuildingFund" runat="server" href="~/PaymentCenter/BuildingFund/Default.aspx">Building Fund</a> &#8226;
                         <a id="PaymentCenter" runat="server" href="~/PaymentCenter/Default.aspx">Payment Center</a> &#8226;
                         <a id="FundRaiser" runat="server" href="~/FundRaiser/Default.aspx">Fund Raising</a> &#8226;
                         <a id="Officers" runat="server" href="Officers/Officers2020.aspx">Officers</a> &#8226;

@@ -7,7 +7,6 @@
             <div class="article_header">Payment Center</div>
 
             <payments:Dues ID="Dues" runat="server" Visible="true" />
-            <payments:BuildingFund ID="BuildingFund" runat="server" Visible="true" /> 
             <payments:FishFry ID="FishFry" runat="server" Visible="true" />
             <payments:Barbecue ID="Barbecue" runat="server" Visible="true"/>
 
