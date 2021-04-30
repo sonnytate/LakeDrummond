@@ -3,7 +3,7 @@ using System.Net.Mail;
 
 namespace Business
 {
-    public class Email
+    public static class Email
     {
         public static string SendEmail(string strFrom, string strTo, string strSubject, string strBody)
         {
