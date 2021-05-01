@@ -12,7 +12,7 @@
                 <td>
                     <%--Eat In--%>
                     Eat in or take out ($10/each) number of Tickets:
-                    <asp:TextBox ID="BarbecueQtyTextBox" runat="server" Width="30px" ValidationGroup=""></asp:TextBox>
+                    <asp:TextBox ID="BarbecueQtyTextBox" runat="server" Width="30px" ValidationGroup="BarbecueValidation"></asp:TextBox>
                 </td>
                 <td>
                     <asp:ImageButton
