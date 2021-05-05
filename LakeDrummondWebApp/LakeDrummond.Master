@@ -83,7 +83,6 @@
                         <%--<a id="Supplement" runat="server" href="~/ETrestleboard/ld_bulletin_2020_03_sup.pdf" target="_blank"><b>Current ETrestleboard Supplement</b> </a>&#8226;--%>
                         <a id="PastTrestlboards" runat="server" href="ETrestleboard/PastTrestlboards.aspx">Past Trestleboards and Web Supplements</a>
                     </div>
-                    <!-- menu_container -->
                 </div>
                 <br />
             </asp:ContentPlaceHolder>

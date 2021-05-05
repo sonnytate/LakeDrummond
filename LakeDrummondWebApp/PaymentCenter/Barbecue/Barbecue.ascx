@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Barbecue.ascx.cs" Inherits="LakeDrummondWebApp.PaymentCenter.Barbecue" %>
 
-<asp:Panel CssClass="border_bottom" ID="FishFryPanel" runat="server">
+<asp:Panel CssClass="border_bottom" ID="BarbecuePanel" runat="server">
     <br />
     <%----------------------------------- Barbecue -------------------------------------------------------------%>
     <div class="article_header_left">Barbecue</div>
