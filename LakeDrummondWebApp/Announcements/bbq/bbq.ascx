@@ -10,22 +10,15 @@
 
         <div class="AnnounceBody" style="width: 500px; text-align: center; font-weight: bold; float: left; width: 60%;">
             <div style="font-size: 26px;">Drummond Lodge No. 178 A.F. & A.M. </div>
-
             Invites you to our Annual
             <br />
-
             <div style="font-size: 30px;">SPRING BBQ FUNDRAISER  </div>
-
-            <%--Saturday, April 29, 2017--%>
             <asp:Label ID="lblEventDate" runat="server" Text=""></asp:Label>
             <br />
-
             From Noon until 5:00 PM
             <br />
-
             At
             <br />
-
             509 George Washington Hwy., N.
             <br />
             Chesapeake, VA 23323
@@ -33,9 +26,9 @@
             (across from DCHS)
             <br />
             <br />
-            $8.00 per plate, eat-in or take-out. 
+            $10.00 per plate, eat-in or take-out. 
             <br />
-            Pork barbecue, cole slaw, baked beans and hushpuppies.
+            Pork barbecue, cole slaw, baked beans and hush puppies.
             <br />
             Tea and lemonade for beverages. 
             <br />

@@ -55,7 +55,7 @@
             </div>
             <%----------------------------------- announcements --------------------------------------------%>
             <div>
-                <announcements:BBQ ID="BBQ" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
+                <announcements:BBQ ID="BBQ" runat="server" EventDate="5/22/2021" NumberDaysBeforeEvent="30" />
                 <announcements:FamilyPicnic ID="FamilyPicnic" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
                 <announcements:General ID="GeneralAnnouncement" runat="server" EventDate="" NumberDaysBeforeEvent="30" />
                 <announcements:GolfTourney ID="GolfTourney" runat="server" EventDate="10/17/2018" NumberDaysBeforeEvent="30" />
