@@ -22,10 +22,16 @@
             <div class="year_header">
                 2021 - 147th Year 
             </div>
-            <a id="A39" runat="server" target="_blank" href="ld_bulletin_2021_01.pdf">Web Supplement - January - 2021</a><br />
-            <a id="A40" runat="server" target="_blank" href="ld_bulletin_2021_03.pdf">Web Supplement - March - 2021</a><br />
-            <a id="A35" runat="server" target="_blank" href="ld_bulletin_2021_04.pdf">Web Supplement - April - 2021</a><br />
-            <a id="A36" runat="server" target="_blank" href="ld_bulletin_2021_05.pdf">Web Supplement - May - 2021</a><br />
+            <a id="A39" runat="server" target="_blank" href="ld_bulletin_2021_01.pdf">January - 2021 - Vol 47 No 1 </a>
+            <br />
+            <a id="A40" runat="server" target="_blank" href="ld_bulletin_2021_03.pdf">March - 2021 - Vol 47 No 3 </a>
+            <br />
+            <a id="A35" runat="server" target="_blank" href="ld_bulletin_2021_04.pdf">April - 2021 - Vol 47 No 4 </a>
+            <br />
+            <a id="A36" runat="server" target="_blank" href="ld_bulletin_2021_05.pdf">May - 2021 - Vol 47 No 5 </a>
+            <br />
+            <a id="A37" runat="server" target="_blank" href="ld_bulletin_2021_06.pdf">June - 2021 - Vol 47 No 6 </a>
+            <br />
         </div>
 
     </div>
@@ -37,22 +43,20 @@
             <div class="year_header">
                 2017 - 143rd Year 
             </div>
-            <a id="A22" runat="server" target="_blank" href="ld_bulletin_2017_1q.pdf">1st Quarter - Jan, Feb, March - 2017 - Vol 44 No. 1</a><br />
-            <a id="A24" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_02_sup.pdf">Web Supplement - February - 2017 </a>
+            <a id="A22" runat="server" target="_blank" href="ld_bulletin_2017_1q.pdf">Web Supplement - January - June - 2017 - Vol 44 No. 1</a><br />
+            <a id="A24" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_02_sup.pdf">Web Supplement - February - 2017 - Vol 44 No. 1 </a>
             <br />
-            <a id="A28" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_03_sup.pdf">Web Supplement - March - 2017 </a>
+            <a id="A28" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_03_sup.pdf">Web Supplement - March - 2017 - Vol 44 No. 2 </a>
             <br />
-            <a id="A31" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_04_sup.pdf">Web Supplement - April - 2017 </a>
+            <a id="A31" runat="server" target="_blank" href="~/ETrestleboard/ld_bulletin_2017_04_sup.pdf">Web Supplement - April - 2017 - Vol 44 No. 3 </a>
         </div>
 
         <div class="list_right">
             <div class="year_header">
                 2020 - 146th Year 
             </div>
-            <a id="A34" runat="server" target="_blank" href="ld_bulletin_2020_03_sup.pdf">Web Supplement - Oct - 2020</a><br />
-            <a id="A33" runat="server" target="_blank" href="ld_bulletin_2020_02_sup.pdf">Web Supplement - July - 2020</a><br />
-            <a id="A32" runat="server" target="_blank" href="ld_bulletin_2020_01_sup.pdf">Web Supplement - June - 2020</a><br />
-
+            <a id="A32" runat="server" target="_blank" href="ld_bulletin_2020_02_sup.pdf">Web Supplement - July - 2020 - Vol 45 No 3</a><br />
+            <a id="A34" runat="server" target="_blank" href="ld_bulletin_2020_03_sup.pdf">Web Supplement - Oct - 2020 - Vol 45 No 4 </a><br />
         </div>
 
     </div>
@@ -76,7 +80,7 @@
             <div class="year_header">
                 2016 - 142nd Year 
             </div>
-            <a id="A30" runat="server" target="_blank" href="ld_bulletin_2016_4q.pdf">4th Quarter - October, November, December - 2016 - Vol 43 No. 2</a><br />
+            <a id="A30" runat="server" target="_blank" href="ld_bulletin_2016_4q.pdf">Web Supplement - September - December - 2016 - Vol 43 No. 2</a><br />
         </div>
 
     </div>

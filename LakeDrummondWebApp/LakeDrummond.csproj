@@ -1493,6 +1493,7 @@
     <Content Include="ETrestleboard\ld_bulletin_2021_03.pdf" />
     <Content Include="ETrestleboard\ld_bulletin_2021_04.pdf" />
     <Content Include="ETrestleboard\ld_bulletin_2021_05.pdf" />
+    <Content Include="ETrestleboard\ld_bulletin_2021_06.pdf" />
     <None Include="packages.config" />
     <Content Include="PhotoGallery\Photo.master" />
     <Content Include="PhotoGallery\2013_installation_officers\Installation2013.master" />
